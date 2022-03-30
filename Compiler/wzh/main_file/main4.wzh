@@ -1,0 +1,6 @@
+//这个文件用于答辩现场测试
+function int main(){
+    int a=10;
+    double b=52.5;
+    print(a+b);
+}

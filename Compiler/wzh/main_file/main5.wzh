@@ -1,0 +1,21 @@
+function void main(){
+    if(a<b){
+        if(b<c){
+            print(1);
+            if(c<d){
+                print(5);
+            }
+        }
+        else{
+            print(2);
+        }
+    }
+    else{
+        if(b<c){
+            print(3);
+        }
+        else{
+            print(4);
+        }
+    }
+}

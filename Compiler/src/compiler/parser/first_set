@@ -1,0 +1,93 @@
+class : {'class'}
+ID : {'ID'}
+{ : {'{'}
+} : {'}'}
+function : {'function'}
+( : {'('}
+) : {')'}
+public : {'public'}
+private : {'private'}
+protected : {'protected'}
+static : {'static'}
+final : {'final'}
+void : {'void'}
+char : {'char'}
+bool : {'bool'}
+short : {'short'}
+int : {'int'}
+long : {'long'}
+double : {'double'}
+float : {'float'}
+var : {'var'}
+; : {';'}
+main : {'main'}
+= : {'='}
+, : {','}
+CONSTANT : {'CONSTANT'}
+++ : {'++'}
+-- : {'--'}
++ : {'+'}
+- : {'-'}
+* : {'*'}
+/ : {'/'}
+% : {'%'}
+| : {'|'}
+& : {'&'}
+~ : {'~'}
+^ : {'^'}
++= : {'+='}
+-= : {'-='}
+*= : {'*='}
+/= : {'/='}
+%= : {'%='}
+< : {'<'}
+> : {'>'}
+== : {'=='}
+!= : {'!='}
+<= : {'<='}
+>= : {'>='}
+! : {'!'}
+&& : {'&&'}
+|| : {'||'}
+if : {'if'}
+else : {'else'}
+for : {'for'}
+while : {'while'}
+do : {'do'}
+print : {'print'}
+return : {'return'}
+START : {'public', 'function', 'protected', 'class', 'private'}
+S : {'public', 'function', 'protected', 'class', 'private'}
+CLASS_S : {'public', 'class', 'protected', 'private'}
+FUNC_S : {'function'}
+FIELD_TYPE : {'public', 'protected', 'private'}
+OPTIONAL_FIELD_TYPE : {'final', 'static'}
+TYPEDEF : {'float', 'short', 'int', 'void', 'double', 'long', 'var', 'bool', 'ID', 'char'}
+CONST_TYPE : {'float', 'short', 'int', 'void', 'long', 'var', 'bool', 'double', 'char'}
+DECLARE_INTER : {'float', 'short', 'int', 'void', 'double', 'long', 'var', 'bool', 'ID', 'char'}
+DECLARE_CLASS : {'static', 'float', 'short', 'char', 'int', 'void', 'double', 'public', 'long', 'var', 'bool', 'protected', 'ID', 'final', 'private'}
+METHOD_CLASS : {'static', 'float', 'short', 'char', 'int', 'void', 'double', 'public', 'long', 'var', 'bool', 'protected', 'ID', 'final', 'private'}
+DECLARE_INIT : {'='}
+DECLARE_VARS : {','}
+ARGS : {'float', 'short', 'int', 'void', 'double', 'long', 'var', 'bool', 'ID', 'char'}
+ARG : {','}
+EXPRESSION : {'ID', '--', 'CONSTANT', '(', '++'}
+VALUE : {'--', 'ID', '++', 'CONSTANT'}
+OPERATION_SPECIAL : {'--', '++'}
+OPERATION : {',', '==', '+=', '^', '>', '~', '*', '/', '+', '%=', '&', '|', '!', '-', '<=', '<', '>=', '!=', '&&', '=', '*=', '||', '-=', '%', '/='}
+OPERATION_CAL : {'-', ',', '~', '*', '/', '^', '&', '+', '%', '|'}
+OPERATION_EQ : {'=', '*=', '+=', '-=', '%=', '/='}
+OPERATION_CMP : {'==', '<=', '<', '>=', '!=', '>'}
+OPERATION_LOG : {'!', '||', '&&'}
+IF_STMT : {'if'}
+ELSE_IF_STMT : {'else'}
+FOR_STMT : {'for'}
+FOR_EXPRESSION : {'ID', 'float', 'short', '--', 'int', 'void', 'double', 'long', 'var', 'bool', 'CONSTANT', '(', 'char', '++'}
+WHILE_STMT : {'while'}
+DO_WHILE_STMT : {'do'}
+PRINT_STMT : {'print'}
+RETURN_STMT : {'return'}
+CLASS_BODY : {'static', 'float', 'short', 'char', 'int', 'void', 'double', 'public', 'long', 'var', 'bool', 'protected', 'ID', 'final', 'private'}
+CLASS_BODY_TMP : {'static', 'float', 'short', 'char', 'int', 'void', 'double', 'public', 'long', 'var', 'bool', 'protected', 'ID', 'final', 'private'}
+BLOCK_STMT : {'return', 'void', 'var', 'bool', 'double', 'while', 'do', 'for', 'char', 'short', '(', 'print', 'float', '--', 'int', 'long', 'if', 'CONSTANT', 'ID', '++'}
+BLOCK_STMT_TMP : {'return', 'void', 'var', 'bool', 'double', 'while', 'do', 'for', 'char', 'short', '(', 'print', 'float', '--', 'int', 'long', 'if', 'CONSTANT', 'ID', '++'}

@@ -1,0 +1,10 @@
+type_list = [
+    "DECLARE_INTER_START",  # 变量声明语句
+    "BLOCK_STMT_EXPRESSION_START",  # 单纯的赋值语句
+    "PRINT_STMT_START",  # print语句
+    "RETURN_STMT_START",  # return 语句
+    "IF_STMT_START",  # if-else语句
+    "WHILE_STMT_START",  # while循环语句
+    "DO_WHILE_STMT_START",  # do-while循环语句
+    "FOR_STMT_START"  # for循环语句
+]

@@ -1,0 +1,53 @@
+function void main(){
+        // 注释
+    /*做词法分析器有点小困难 */
+    int a,dd = 12;
+    int b = 14;
+    double c = a-- + b * 2.44 + 1.2 - 1.2E+12;
+    int i;
+    bool b=a||d&&c;
+    l=1;
+    i-=1;
+    if(a<=b || b>c && a==c){
+        print("我来自安徽省芜湖市");
+        print('a');
+        print("");
+        if(i==1){
+            print("1");
+        }
+        else{
+            print("2");
+        }
+    }
+    else if(a==2){
+        print("hello");
+    }
+    else{
+        if(1==2){
+            print(1);
+        }
+        else if(2==2){
+            print("我是在校时长两年半的本科生王子辉");
+        }
+        else{
+            print(2);
+        }
+    }
+    int i=0,j=0;
+    while(i<10){
+        print(1);
+        while(j<5){
+            print(2);
+            j++;
+        }
+        i++;
+    }
+    for(i=0;i<20;i++){
+        print("wzh");
+        for(int j=0;j<12;j+=2){
+            print("wZh");
+        }
+    }
+    print(c);
+    bool lbw = false;
+}
