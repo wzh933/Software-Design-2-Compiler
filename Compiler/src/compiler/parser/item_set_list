@@ -1,0 +1,2202 @@
+I0:
+START -> ['S'],{'#'}, index=0
+S -> ['CLASS_S', 'S'],{'#'}, index=0
+S -> ['FUNC_S', 'S'],{'#'}, index=0
+S -> [],{'#'}, index=0
+CLASS_S -> ['FIELD_TYPE', 'class', 'ID', '{', 'CLASS_BODY', '}'],{'#', 'class', 'function', 'private', 'public', 'protected'}, index=0
+FUNC_S -> ['function', 'TYPEDEF', 'ID', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'#', 'class', 'function', 'private', 'public', 'protected'}, index=0
+FIELD_TYPE -> [],{'class'}, index=0
+FIELD_TYPE -> ['public'],{'class'}, index=0
+FIELD_TYPE -> ['private'],{'class'}, index=0
+FIELD_TYPE -> ['protected'],{'class'}, index=0
+ {'S': 1, 'CLASS_S': 2, 'FUNC_S': 3, 'FIELD_TYPE': 4, 'function': 5, 'public': 6, 'private': 7, 'protected': 8}
+
+I1:
+START -> ['S'],{'#'}, index=1
+ {}
+
+I2:
+S -> ['CLASS_S', 'S'],{'#'}, index=1
+S -> ['CLASS_S', 'S'],{'#'}, index=0
+S -> ['FUNC_S', 'S'],{'#'}, index=0
+S -> [],{'#'}, index=0
+CLASS_S -> ['FIELD_TYPE', 'class', 'ID', '{', 'CLASS_BODY', '}'],{'#', 'class', 'function', 'private', 'public', 'protected'}, index=0
+FUNC_S -> ['function', 'TYPEDEF', 'ID', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'#', 'class', 'function', 'private', 'public', 'protected'}, index=0
+FIELD_TYPE -> [],{'class'}, index=0
+FIELD_TYPE -> ['public'],{'class'}, index=0
+FIELD_TYPE -> ['private'],{'class'}, index=0
+FIELD_TYPE -> ['protected'],{'class'}, index=0
+ {'S': 9, 'CLASS_S': 2, 'FUNC_S': 3, 'FIELD_TYPE': 4, 'function': 5, 'public': 6, 'private': 7, 'protected': 8}
+
+I3:
+S -> ['FUNC_S', 'S'],{'#'}, index=1
+S -> ['CLASS_S', 'S'],{'#'}, index=0
+S -> ['FUNC_S', 'S'],{'#'}, index=0
+S -> [],{'#'}, index=0
+CLASS_S -> ['FIELD_TYPE', 'class', 'ID', '{', 'CLASS_BODY', '}'],{'#', 'class', 'function', 'private', 'public', 'protected'}, index=0
+FUNC_S -> ['function', 'TYPEDEF', 'ID', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'#', 'class', 'function', 'private', 'public', 'protected'}, index=0
+FIELD_TYPE -> [],{'class'}, index=0
+FIELD_TYPE -> ['public'],{'class'}, index=0
+FIELD_TYPE -> ['private'],{'class'}, index=0
+FIELD_TYPE -> ['protected'],{'class'}, index=0
+ {'S': 10, 'CLASS_S': 2, 'FUNC_S': 3, 'FIELD_TYPE': 4, 'function': 5, 'public': 6, 'private': 7, 'protected': 8}
+
+I4:
+CLASS_S -> ['FIELD_TYPE', 'class', 'ID', '{', 'CLASS_BODY', '}'],{'#', 'class', 'function', 'private', 'public', 'protected'}, index=1
+ {'class': 11}
+
+I5:
+FUNC_S -> ['function', 'TYPEDEF', 'ID', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'#', 'class', 'function', 'private', 'public', 'protected'}, index=1
+TYPEDEF -> ['ID'],{'ID'}, index=0
+TYPEDEF -> ['CONST_TYPE'],{'ID'}, index=0
+CONST_TYPE -> ['void'],{'ID'}, index=0
+CONST_TYPE -> ['char'],{'ID'}, index=0
+CONST_TYPE -> ['bool'],{'ID'}, index=0
+CONST_TYPE -> ['short'],{'ID'}, index=0
+CONST_TYPE -> ['int'],{'ID'}, index=0
+CONST_TYPE -> ['long'],{'ID'}, index=0
+CONST_TYPE -> ['double'],{'ID'}, index=0
+CONST_TYPE -> ['float'],{'ID'}, index=0
+CONST_TYPE -> ['var'],{'ID'}, index=0
+ {'TYPEDEF': 12, 'ID': 13, 'CONST_TYPE': 14, 'void': 15, 'char': 16, 'bool': 17, 'short': 18, 'int': 19, 'long': 20, 'double': 21, 'float': 22, 'var': 23}
+
+I6:
+FIELD_TYPE -> ['public'],{'class'}, index=1
+ {}
+
+I7:
+FIELD_TYPE -> ['private'],{'class'}, index=1
+ {}
+
+I8:
+FIELD_TYPE -> ['protected'],{'class'}, index=1
+ {}
+
+I9:
+S -> ['CLASS_S', 'S'],{'#'}, index=2
+ {}
+
+I10:
+S -> ['FUNC_S', 'S'],{'#'}, index=2
+ {}
+
+I11:
+CLASS_S -> ['FIELD_TYPE', 'class', 'ID', '{', 'CLASS_BODY', '}'],{'#', 'class', 'function', 'private', 'public', 'protected'}, index=2
+ {'ID': 24}
+
+I12:
+FUNC_S -> ['function', 'TYPEDEF', 'ID', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'#', 'class', 'function', 'private', 'public', 'protected'}, index=2
+ {'ID': 25}
+
+I13:
+TYPEDEF -> ['ID'],{'ID'}, index=1
+ {}
+
+I14:
+TYPEDEF -> ['CONST_TYPE'],{'ID'}, index=1
+ {}
+
+I15:
+CONST_TYPE -> ['void'],{'ID'}, index=1
+ {}
+
+I16:
+CONST_TYPE -> ['char'],{'ID'}, index=1
+ {}
+
+I17:
+CONST_TYPE -> ['bool'],{'ID'}, index=1
+ {}
+
+I18:
+CONST_TYPE -> ['short'],{'ID'}, index=1
+ {}
+
+I19:
+CONST_TYPE -> ['int'],{'ID'}, index=1
+ {}
+
+I20:
+CONST_TYPE -> ['long'],{'ID'}, index=1
+ {}
+
+I21:
+CONST_TYPE -> ['double'],{'ID'}, index=1
+ {}
+
+I22:
+CONST_TYPE -> ['float'],{'ID'}, index=1
+ {}
+
+I23:
+CONST_TYPE -> ['var'],{'ID'}, index=1
+ {}
+
+I24:
+CLASS_S -> ['FIELD_TYPE', 'class', 'ID', '{', 'CLASS_BODY', '}'],{'#', 'class', 'function', 'private', 'public', 'protected'}, index=3
+ {'{': 26}
+
+I25:
+FUNC_S -> ['function', 'TYPEDEF', 'ID', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'#', 'class', 'function', 'private', 'public', 'protected'}, index=3
+ {'(': 27}
+
+I26:
+CLASS_S -> ['FIELD_TYPE', 'class', 'ID', '{', 'CLASS_BODY', '}'],{'#', 'class', 'function', 'private', 'public', 'protected'}, index=4
+CLASS_BODY -> [],{'}'}, index=0
+CLASS_BODY -> ['CLASS_BODY_TMP', 'CLASS_BODY'],{'}'}, index=0
+CLASS_BODY_TMP -> ['DECLARE_CLASS'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=0
+CLASS_BODY_TMP -> ['METHOD_CLASS'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=0
+DECLARE_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'ID', 'DECLARE_INIT', 'DECLARE_VARS', ';'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=0
+METHOD_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'ID', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=0
+METHOD_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'main', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=0
+FIELD_TYPE -> [],{'ID', 'int', 'var', 'float', 'long', 'bool', 'char', 'final', 'short', 'double', 'void', 'static'}, index=0
+FIELD_TYPE -> ['public'],{'ID', 'int', 'var', 'float', 'long', 'bool', 'char', 'final', 'short', 'double', 'void', 'static'}, index=0
+FIELD_TYPE -> ['private'],{'ID', 'int', 'var', 'float', 'long', 'bool', 'char', 'final', 'short', 'double', 'void', 'static'}, index=0
+FIELD_TYPE -> ['protected'],{'ID', 'int', 'var', 'float', 'long', 'bool', 'char', 'final', 'short', 'double', 'void', 'static'}, index=0
+ {'CLASS_BODY': 28, 'CLASS_BODY_TMP': 29, 'DECLARE_CLASS': 30, 'METHOD_CLASS': 31, 'FIELD_TYPE': 32, 'public': 33, 'private': 34, 'protected': 35}
+
+I27:
+FUNC_S -> ['function', 'TYPEDEF', 'ID', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'#', 'class', 'function', 'private', 'public', 'protected'}, index=4
+ARGS -> [],{')'}, index=0
+ARGS -> ['TYPEDEF', 'ID', 'ARG'],{')'}, index=0
+TYPEDEF -> ['ID'],{'ID'}, index=0
+TYPEDEF -> ['CONST_TYPE'],{'ID'}, index=0
+CONST_TYPE -> ['void'],{'ID'}, index=0
+CONST_TYPE -> ['char'],{'ID'}, index=0
+CONST_TYPE -> ['bool'],{'ID'}, index=0
+CONST_TYPE -> ['short'],{'ID'}, index=0
+CONST_TYPE -> ['int'],{'ID'}, index=0
+CONST_TYPE -> ['long'],{'ID'}, index=0
+CONST_TYPE -> ['double'],{'ID'}, index=0
+CONST_TYPE -> ['float'],{'ID'}, index=0
+CONST_TYPE -> ['var'],{'ID'}, index=0
+ {'ARGS': 36, 'TYPEDEF': 37, 'ID': 13, 'CONST_TYPE': 14, 'void': 15, 'char': 16, 'bool': 17, 'short': 18, 'int': 19, 'long': 20, 'double': 21, 'float': 22, 'var': 23}
+
+I28:
+CLASS_S -> ['FIELD_TYPE', 'class', 'ID', '{', 'CLASS_BODY', '}'],{'#', 'class', 'function', 'private', 'public', 'protected'}, index=5
+ {'}': 38}
+
+I29:
+CLASS_BODY -> ['CLASS_BODY_TMP', 'CLASS_BODY'],{'}'}, index=1
+CLASS_BODY -> [],{'}'}, index=0
+CLASS_BODY -> ['CLASS_BODY_TMP', 'CLASS_BODY'],{'}'}, index=0
+CLASS_BODY_TMP -> ['DECLARE_CLASS'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=0
+CLASS_BODY_TMP -> ['METHOD_CLASS'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=0
+DECLARE_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'ID', 'DECLARE_INIT', 'DECLARE_VARS', ';'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=0
+METHOD_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'ID', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=0
+METHOD_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'main', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=0
+FIELD_TYPE -> [],{'ID', 'int', 'var', 'float', 'long', 'bool', 'char', 'final', 'short', 'double', 'void', 'static'}, index=0
+FIELD_TYPE -> ['public'],{'ID', 'int', 'var', 'float', 'long', 'bool', 'char', 'final', 'short', 'double', 'void', 'static'}, index=0
+FIELD_TYPE -> ['private'],{'ID', 'int', 'var', 'float', 'long', 'bool', 'char', 'final', 'short', 'double', 'void', 'static'}, index=0
+FIELD_TYPE -> ['protected'],{'ID', 'int', 'var', 'float', 'long', 'bool', 'char', 'final', 'short', 'double', 'void', 'static'}, index=0
+ {'CLASS_BODY': 39, 'CLASS_BODY_TMP': 29, 'DECLARE_CLASS': 30, 'METHOD_CLASS': 31, 'FIELD_TYPE': 32, 'public': 33, 'private': 34, 'protected': 35}
+
+I30:
+CLASS_BODY_TMP -> ['DECLARE_CLASS'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=1
+ {}
+
+I31:
+CLASS_BODY_TMP -> ['METHOD_CLASS'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=1
+ {}
+
+I32:
+DECLARE_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'ID', 'DECLARE_INIT', 'DECLARE_VARS', ';'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=1
+METHOD_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'ID', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=1
+METHOD_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'main', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=1
+OPTIONAL_FIELD_TYPE -> [],{'ID', 'int', 'var', 'float', 'long', 'bool', 'char', 'short', 'double', 'void'}, index=0
+OPTIONAL_FIELD_TYPE -> ['static'],{'ID', 'int', 'var', 'float', 'long', 'bool', 'char', 'short', 'double', 'void'}, index=0
+OPTIONAL_FIELD_TYPE -> ['final'],{'ID', 'int', 'var', 'float', 'long', 'bool', 'char', 'short', 'double', 'void'}, index=0
+ {'OPTIONAL_FIELD_TYPE': 40, 'static': 41, 'final': 42}
+
+I33:
+FIELD_TYPE -> ['public'],{'ID', 'int', 'var', 'float', 'long', 'bool', 'char', 'final', 'short', 'double', 'void', 'static'}, index=1
+ {}
+
+I34:
+FIELD_TYPE -> ['private'],{'ID', 'int', 'var', 'float', 'long', 'bool', 'char', 'final', 'short', 'double', 'void', 'static'}, index=1
+ {}
+
+I35:
+FIELD_TYPE -> ['protected'],{'ID', 'int', 'var', 'float', 'long', 'bool', 'char', 'final', 'short', 'double', 'void', 'static'}, index=1
+ {}
+
+I36:
+FUNC_S -> ['function', 'TYPEDEF', 'ID', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'#', 'class', 'function', 'private', 'public', 'protected'}, index=5
+ {')': 43}
+
+I37:
+ARGS -> ['TYPEDEF', 'ID', 'ARG'],{')'}, index=1
+ {'ID': 44}
+
+I38:
+CLASS_S -> ['FIELD_TYPE', 'class', 'ID', '{', 'CLASS_BODY', '}'],{'#', 'class', 'function', 'private', 'public', 'protected'}, index=6
+ {}
+
+I39:
+CLASS_BODY -> ['CLASS_BODY_TMP', 'CLASS_BODY'],{'}'}, index=2
+ {}
+
+I40:
+DECLARE_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'ID', 'DECLARE_INIT', 'DECLARE_VARS', ';'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=2
+METHOD_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'ID', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=2
+METHOD_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'main', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=2
+TYPEDEF -> ['ID'],{'ID'}, index=0
+TYPEDEF -> ['CONST_TYPE'],{'ID'}, index=0
+TYPEDEF -> ['ID'],{'main'}, index=0
+TYPEDEF -> ['CONST_TYPE'],{'main'}, index=0
+CONST_TYPE -> ['void'],{'ID'}, index=0
+CONST_TYPE -> ['char'],{'ID'}, index=0
+CONST_TYPE -> ['bool'],{'ID'}, index=0
+CONST_TYPE -> ['short'],{'ID'}, index=0
+CONST_TYPE -> ['int'],{'ID'}, index=0
+CONST_TYPE -> ['long'],{'ID'}, index=0
+CONST_TYPE -> ['double'],{'ID'}, index=0
+CONST_TYPE -> ['float'],{'ID'}, index=0
+CONST_TYPE -> ['var'],{'ID'}, index=0
+CONST_TYPE -> ['void'],{'main'}, index=0
+CONST_TYPE -> ['char'],{'main'}, index=0
+CONST_TYPE -> ['bool'],{'main'}, index=0
+CONST_TYPE -> ['short'],{'main'}, index=0
+CONST_TYPE -> ['int'],{'main'}, index=0
+CONST_TYPE -> ['long'],{'main'}, index=0
+CONST_TYPE -> ['double'],{'main'}, index=0
+CONST_TYPE -> ['float'],{'main'}, index=0
+CONST_TYPE -> ['var'],{'main'}, index=0
+ {'TYPEDEF': 45, 'ID': 46, 'CONST_TYPE': 47, 'void': 48, 'char': 49, 'bool': 50, 'short': 51, 'int': 52, 'long': 53, 'double': 54, 'float': 55, 'var': 56}
+
+I41:
+OPTIONAL_FIELD_TYPE -> ['static'],{'ID', 'int', 'var', 'float', 'long', 'bool', 'char', 'short', 'double', 'void'}, index=1
+ {}
+
+I42:
+OPTIONAL_FIELD_TYPE -> ['final'],{'ID', 'int', 'var', 'float', 'long', 'bool', 'char', 'short', 'double', 'void'}, index=1
+ {}
+
+I43:
+FUNC_S -> ['function', 'TYPEDEF', 'ID', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'#', 'class', 'function', 'private', 'public', 'protected'}, index=6
+ {'{': 57}
+
+I44:
+ARGS -> ['TYPEDEF', 'ID', 'ARG'],{')'}, index=2
+ARG -> [],{')'}, index=0
+ARG -> [',', 'TYPEDEF', 'ID', 'ARG'],{')'}, index=0
+ {'ARG': 58, ',': 59}
+
+I45:
+DECLARE_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'ID', 'DECLARE_INIT', 'DECLARE_VARS', ';'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=3
+METHOD_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'ID', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=3
+METHOD_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'main', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=3
+ {'ID': 60, 'main': 61}
+
+I46:
+TYPEDEF -> ['ID'],{'ID'}, index=1
+TYPEDEF -> ['ID'],{'main'}, index=1
+ {}
+
+I47:
+TYPEDEF -> ['CONST_TYPE'],{'ID'}, index=1
+TYPEDEF -> ['CONST_TYPE'],{'main'}, index=1
+ {}
+
+I48:
+CONST_TYPE -> ['void'],{'ID'}, index=1
+CONST_TYPE -> ['void'],{'main'}, index=1
+ {}
+
+I49:
+CONST_TYPE -> ['char'],{'ID'}, index=1
+CONST_TYPE -> ['char'],{'main'}, index=1
+ {}
+
+I50:
+CONST_TYPE -> ['bool'],{'ID'}, index=1
+CONST_TYPE -> ['bool'],{'main'}, index=1
+ {}
+
+I51:
+CONST_TYPE -> ['short'],{'ID'}, index=1
+CONST_TYPE -> ['short'],{'main'}, index=1
+ {}
+
+I52:
+CONST_TYPE -> ['int'],{'ID'}, index=1
+CONST_TYPE -> ['int'],{'main'}, index=1
+ {}
+
+I53:
+CONST_TYPE -> ['long'],{'ID'}, index=1
+CONST_TYPE -> ['long'],{'main'}, index=1
+ {}
+
+I54:
+CONST_TYPE -> ['double'],{'ID'}, index=1
+CONST_TYPE -> ['double'],{'main'}, index=1
+ {}
+
+I55:
+CONST_TYPE -> ['float'],{'ID'}, index=1
+CONST_TYPE -> ['float'],{'main'}, index=1
+ {}
+
+I56:
+CONST_TYPE -> ['var'],{'ID'}, index=1
+CONST_TYPE -> ['var'],{'main'}, index=1
+ {}
+
+I57:
+FUNC_S -> ['function', 'TYPEDEF', 'ID', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'#', 'class', 'function', 'private', 'public', 'protected'}, index=7
+BLOCK_STMT -> [],{'}'}, index=0
+BLOCK_STMT -> ['BLOCK_STMT_TMP', 'BLOCK_STMT'],{'}'}, index=0
+BLOCK_STMT_TMP -> ['DECLARE_INTER'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['EXPRESSION', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['IF_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['FOR_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['WHILE_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['DO_WHILE_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['PRINT_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['RETURN_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+DECLARE_INTER -> ['TYPEDEF', 'ID', 'DECLARE_INIT', 'DECLARE_VARS', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+EXPRESSION -> ['VALUE'],{';'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{';'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{';'}, index=0
+IF_STMT -> ['if', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}', 'ELSE_IF_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+FOR_STMT -> ['for', '(', 'FOR_EXPRESSION', ';', 'EXPRESSION', ';', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+WHILE_STMT -> ['while', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+DO_WHILE_STMT -> ['do', '{', 'BLOCK_STMT', '}', 'while', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+PRINT_STMT -> ['print', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+RETURN_STMT -> ['return', 'EXPRESSION', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+TYPEDEF -> ['ID'],{'ID'}, index=0
+TYPEDEF -> ['CONST_TYPE'],{'ID'}, index=0
+VALUE -> ['CONSTANT'],{';'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{';'}, index=0
+EXPRESSION -> ['VALUE'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+CONST_TYPE -> ['void'],{'ID'}, index=0
+CONST_TYPE -> ['char'],{'ID'}, index=0
+CONST_TYPE -> ['bool'],{'ID'}, index=0
+CONST_TYPE -> ['short'],{'ID'}, index=0
+CONST_TYPE -> ['int'],{'ID'}, index=0
+CONST_TYPE -> ['long'],{'ID'}, index=0
+CONST_TYPE -> ['double'],{'ID'}, index=0
+CONST_TYPE -> ['float'],{'ID'}, index=0
+CONST_TYPE -> ['var'],{'ID'}, index=0
+OPERATION_SPECIAL -> [],{'ID'}, index=0
+OPERATION_SPECIAL -> ['++'],{'ID'}, index=0
+OPERATION_SPECIAL -> ['--'],{'ID'}, index=0
+VALUE -> ['CONSTANT'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+ {'BLOCK_STMT': 62, 'BLOCK_STMT_TMP': 63, 'DECLARE_INTER': 64, 'EXPRESSION': 65, 'IF_STMT': 66, 'FOR_STMT': 67, 'WHILE_STMT': 68, 'DO_WHILE_STMT': 69, 'PRINT_STMT': 70, 'RETURN_STMT': 71, 'TYPEDEF': 72, 'VALUE': 73, '(': 74, 'if': 75, 'for': 76, 'while': 77, 'do': 78, 'print': 79, 'return': 80, 'ID': 13, 'CONST_TYPE': 14, 'CONSTANT': 81, 'OPERATION_SPECIAL': 82, 'void': 15, 'char': 16, 'bool': 17, 'short': 18, 'int': 19, 'long': 20, 'double': 21, 'float': 22, 'var': 23, '++': 83, '--': 84}
+
+I58:
+ARGS -> ['TYPEDEF', 'ID', 'ARG'],{')'}, index=3
+ {}
+
+I59:
+ARG -> [',', 'TYPEDEF', 'ID', 'ARG'],{')'}, index=1
+TYPEDEF -> ['ID'],{'ID'}, index=0
+TYPEDEF -> ['CONST_TYPE'],{'ID'}, index=0
+CONST_TYPE -> ['void'],{'ID'}, index=0
+CONST_TYPE -> ['char'],{'ID'}, index=0
+CONST_TYPE -> ['bool'],{'ID'}, index=0
+CONST_TYPE -> ['short'],{'ID'}, index=0
+CONST_TYPE -> ['int'],{'ID'}, index=0
+CONST_TYPE -> ['long'],{'ID'}, index=0
+CONST_TYPE -> ['double'],{'ID'}, index=0
+CONST_TYPE -> ['float'],{'ID'}, index=0
+CONST_TYPE -> ['var'],{'ID'}, index=0
+ {'TYPEDEF': 85, 'ID': 13, 'CONST_TYPE': 14, 'void': 15, 'char': 16, 'bool': 17, 'short': 18, 'int': 19, 'long': 20, 'double': 21, 'float': 22, 'var': 23}
+
+I60:
+DECLARE_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'ID', 'DECLARE_INIT', 'DECLARE_VARS', ';'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=4
+METHOD_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'ID', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=4
+DECLARE_INIT -> [],{',', ';'}, index=0
+DECLARE_INIT -> ['=', 'EXPRESSION'],{',', ';'}, index=0
+ {'DECLARE_INIT': 86, '(': 87, '=': 88}
+
+I61:
+METHOD_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'main', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=4
+ {'(': 89}
+
+I62:
+FUNC_S -> ['function', 'TYPEDEF', 'ID', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'#', 'class', 'function', 'private', 'public', 'protected'}, index=8
+ {'}': 90}
+
+I63:
+BLOCK_STMT -> ['BLOCK_STMT_TMP', 'BLOCK_STMT'],{'}'}, index=1
+BLOCK_STMT -> [],{'}'}, index=0
+BLOCK_STMT -> ['BLOCK_STMT_TMP', 'BLOCK_STMT'],{'}'}, index=0
+BLOCK_STMT_TMP -> ['DECLARE_INTER'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['EXPRESSION', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['IF_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['FOR_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['WHILE_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['DO_WHILE_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['PRINT_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['RETURN_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+DECLARE_INTER -> ['TYPEDEF', 'ID', 'DECLARE_INIT', 'DECLARE_VARS', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+EXPRESSION -> ['VALUE'],{';'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{';'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{';'}, index=0
+IF_STMT -> ['if', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}', 'ELSE_IF_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+FOR_STMT -> ['for', '(', 'FOR_EXPRESSION', ';', 'EXPRESSION', ';', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+WHILE_STMT -> ['while', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+DO_WHILE_STMT -> ['do', '{', 'BLOCK_STMT', '}', 'while', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+PRINT_STMT -> ['print', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+RETURN_STMT -> ['return', 'EXPRESSION', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+TYPEDEF -> ['ID'],{'ID'}, index=0
+TYPEDEF -> ['CONST_TYPE'],{'ID'}, index=0
+VALUE -> ['CONSTANT'],{';'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{';'}, index=0
+EXPRESSION -> ['VALUE'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+CONST_TYPE -> ['void'],{'ID'}, index=0
+CONST_TYPE -> ['char'],{'ID'}, index=0
+CONST_TYPE -> ['bool'],{'ID'}, index=0
+CONST_TYPE -> ['short'],{'ID'}, index=0
+CONST_TYPE -> ['int'],{'ID'}, index=0
+CONST_TYPE -> ['long'],{'ID'}, index=0
+CONST_TYPE -> ['double'],{'ID'}, index=0
+CONST_TYPE -> ['float'],{'ID'}, index=0
+CONST_TYPE -> ['var'],{'ID'}, index=0
+OPERATION_SPECIAL -> [],{'ID'}, index=0
+OPERATION_SPECIAL -> ['++'],{'ID'}, index=0
+OPERATION_SPECIAL -> ['--'],{'ID'}, index=0
+VALUE -> ['CONSTANT'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+ {'BLOCK_STMT': 91, 'BLOCK_STMT_TMP': 63, 'DECLARE_INTER': 64, 'EXPRESSION': 65, 'IF_STMT': 66, 'FOR_STMT': 67, 'WHILE_STMT': 68, 'DO_WHILE_STMT': 69, 'PRINT_STMT': 70, 'RETURN_STMT': 71, 'TYPEDEF': 72, 'VALUE': 73, '(': 74, 'if': 75, 'for': 76, 'while': 77, 'do': 78, 'print': 79, 'return': 80, 'ID': 13, 'CONST_TYPE': 14, 'CONSTANT': 81, 'OPERATION_SPECIAL': 82, 'void': 15, 'char': 16, 'bool': 17, 'short': 18, 'int': 19, 'long': 20, 'double': 21, 'float': 22, 'var': 23, '++': 83, '--': 84}
+
+I64:
+BLOCK_STMT_TMP -> ['DECLARE_INTER'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=1
+ {}
+
+I65:
+BLOCK_STMT_TMP -> ['EXPRESSION', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=1
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{';'}, index=1
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+OPERATION -> ['OPERATION_CAL'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_CMP'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_EQ'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_LOG'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> [','],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['+'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['-'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['*'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['/'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['%'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['|'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['~'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['^'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['=='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['!='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['+='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['-='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['*='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['/='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['%='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['!'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['&&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['||'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+ {';': 92, 'OPERATION': 93, 'OPERATION_CAL': 94, 'OPERATION_CMP': 95, 'OPERATION_EQ': 96, 'OPERATION_LOG': 97, ',': 98, '+': 99, '-': 100, '*': 101, '/': 102, '%': 103, '|': 104, '&': 105, '~': 106, '^': 107, '<': 108, '>': 109, '==': 110, '!=': 111, '<=': 112, '>=': 113, '=': 114, '+=': 115, '-=': 116, '*=': 117, '/=': 118, '%=': 119, '!': 120, '&&': 121, '||': 122}
+
+I66:
+BLOCK_STMT_TMP -> ['IF_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=1
+ {}
+
+I67:
+BLOCK_STMT_TMP -> ['FOR_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=1
+ {}
+
+I68:
+BLOCK_STMT_TMP -> ['WHILE_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=1
+ {}
+
+I69:
+BLOCK_STMT_TMP -> ['DO_WHILE_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=1
+ {}
+
+I70:
+BLOCK_STMT_TMP -> ['PRINT_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=1
+ {}
+
+I71:
+BLOCK_STMT_TMP -> ['RETURN_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=1
+ {}
+
+I72:
+DECLARE_INTER -> ['TYPEDEF', 'ID', 'DECLARE_INIT', 'DECLARE_VARS', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=1
+ {'ID': 123}
+
+I73:
+EXPRESSION -> ['VALUE'],{';'}, index=1
+EXPRESSION -> ['VALUE'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+ {}
+
+I74:
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{';'}, index=1
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+EXPRESSION -> ['VALUE'],{')'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{')'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{')'}, index=0
+VALUE -> ['CONSTANT'],{')'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{')'}, index=0
+EXPRESSION -> ['VALUE'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+OPERATION_SPECIAL -> [],{'ID'}, index=0
+OPERATION_SPECIAL -> ['++'],{'ID'}, index=0
+OPERATION_SPECIAL -> ['--'],{'ID'}, index=0
+VALUE -> ['CONSTANT'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+ {'EXPRESSION': 124, 'VALUE': 125, '(': 126, 'CONSTANT': 127, 'OPERATION_SPECIAL': 128, '++': 83, '--': 84}
+
+I75:
+IF_STMT -> ['if', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}', 'ELSE_IF_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=1
+ {'(': 129}
+
+I76:
+FOR_STMT -> ['for', '(', 'FOR_EXPRESSION', ';', 'EXPRESSION', ';', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=1
+ {'(': 130}
+
+I77:
+WHILE_STMT -> ['while', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=1
+ {'(': 131}
+
+I78:
+DO_WHILE_STMT -> ['do', '{', 'BLOCK_STMT', '}', 'while', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=1
+ {'{': 132}
+
+I79:
+PRINT_STMT -> ['print', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=1
+ {'(': 133}
+
+I80:
+RETURN_STMT -> ['return', 'EXPRESSION', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=1
+EXPRESSION -> ['VALUE'],{';'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{';'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{';'}, index=0
+VALUE -> ['CONSTANT'],{';'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{';'}, index=0
+EXPRESSION -> ['VALUE'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+OPERATION_SPECIAL -> [],{'ID'}, index=0
+OPERATION_SPECIAL -> ['++'],{'ID'}, index=0
+OPERATION_SPECIAL -> ['--'],{'ID'}, index=0
+VALUE -> ['CONSTANT'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+ {'EXPRESSION': 134, 'VALUE': 73, '(': 74, 'CONSTANT': 81, 'OPERATION_SPECIAL': 82, '++': 83, '--': 84}
+
+I81:
+VALUE -> ['CONSTANT'],{';'}, index=1
+VALUE -> ['CONSTANT'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+ {}
+
+I82:
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{';'}, index=1
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+ {'ID': 135}
+
+I83:
+OPERATION_SPECIAL -> ['++'],{'ID'}, index=1
+ {}
+
+I84:
+OPERATION_SPECIAL -> ['--'],{'ID'}, index=1
+ {}
+
+I85:
+ARG -> [',', 'TYPEDEF', 'ID', 'ARG'],{')'}, index=2
+ {'ID': 136}
+
+I86:
+DECLARE_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'ID', 'DECLARE_INIT', 'DECLARE_VARS', ';'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=5
+DECLARE_VARS -> [],{';'}, index=0
+DECLARE_VARS -> [',', 'ID', 'DECLARE_INIT', 'DECLARE_VARS'],{';'}, index=0
+ {'DECLARE_VARS': 137, ',': 138}
+
+I87:
+METHOD_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'ID', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=5
+ARGS -> [],{')'}, index=0
+ARGS -> ['TYPEDEF', 'ID', 'ARG'],{')'}, index=0
+TYPEDEF -> ['ID'],{'ID'}, index=0
+TYPEDEF -> ['CONST_TYPE'],{'ID'}, index=0
+CONST_TYPE -> ['void'],{'ID'}, index=0
+CONST_TYPE -> ['char'],{'ID'}, index=0
+CONST_TYPE -> ['bool'],{'ID'}, index=0
+CONST_TYPE -> ['short'],{'ID'}, index=0
+CONST_TYPE -> ['int'],{'ID'}, index=0
+CONST_TYPE -> ['long'],{'ID'}, index=0
+CONST_TYPE -> ['double'],{'ID'}, index=0
+CONST_TYPE -> ['float'],{'ID'}, index=0
+CONST_TYPE -> ['var'],{'ID'}, index=0
+ {'ARGS': 139, 'TYPEDEF': 37, 'ID': 13, 'CONST_TYPE': 14, 'void': 15, 'char': 16, 'bool': 17, 'short': 18, 'int': 19, 'long': 20, 'double': 21, 'float': 22, 'var': 23}
+
+I88:
+DECLARE_INIT -> ['=', 'EXPRESSION'],{',', ';'}, index=1
+EXPRESSION -> ['VALUE'],{',', ';'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{',', ';'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{',', ';'}, index=0
+VALUE -> ['CONSTANT'],{',', ';'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{',', ';'}, index=0
+EXPRESSION -> ['VALUE'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+OPERATION_SPECIAL -> [],{'ID'}, index=0
+OPERATION_SPECIAL -> ['++'],{'ID'}, index=0
+OPERATION_SPECIAL -> ['--'],{'ID'}, index=0
+VALUE -> ['CONSTANT'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+ {'EXPRESSION': 140, 'VALUE': 141, '(': 142, 'CONSTANT': 143, 'OPERATION_SPECIAL': 144, '++': 83, '--': 84}
+
+I89:
+METHOD_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'main', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=5
+ARGS -> [],{')'}, index=0
+ARGS -> ['TYPEDEF', 'ID', 'ARG'],{')'}, index=0
+TYPEDEF -> ['ID'],{'ID'}, index=0
+TYPEDEF -> ['CONST_TYPE'],{'ID'}, index=0
+CONST_TYPE -> ['void'],{'ID'}, index=0
+CONST_TYPE -> ['char'],{'ID'}, index=0
+CONST_TYPE -> ['bool'],{'ID'}, index=0
+CONST_TYPE -> ['short'],{'ID'}, index=0
+CONST_TYPE -> ['int'],{'ID'}, index=0
+CONST_TYPE -> ['long'],{'ID'}, index=0
+CONST_TYPE -> ['double'],{'ID'}, index=0
+CONST_TYPE -> ['float'],{'ID'}, index=0
+CONST_TYPE -> ['var'],{'ID'}, index=0
+ {'ARGS': 145, 'TYPEDEF': 37, 'ID': 13, 'CONST_TYPE': 14, 'void': 15, 'char': 16, 'bool': 17, 'short': 18, 'int': 19, 'long': 20, 'double': 21, 'float': 22, 'var': 23}
+
+I90:
+FUNC_S -> ['function', 'TYPEDEF', 'ID', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'#', 'class', 'function', 'private', 'public', 'protected'}, index=9
+ {}
+
+I91:
+BLOCK_STMT -> ['BLOCK_STMT_TMP', 'BLOCK_STMT'],{'}'}, index=2
+ {}
+
+I92:
+BLOCK_STMT_TMP -> ['EXPRESSION', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=2
+ {}
+
+I93:
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{';'}, index=2
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=2
+EXPRESSION -> ['VALUE'],{';'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{';'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{';'}, index=0
+EXPRESSION -> ['VALUE'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+VALUE -> ['CONSTANT'],{';'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{';'}, index=0
+VALUE -> ['CONSTANT'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+OPERATION_SPECIAL -> [],{'ID'}, index=0
+OPERATION_SPECIAL -> ['++'],{'ID'}, index=0
+OPERATION_SPECIAL -> ['--'],{'ID'}, index=0
+ {'EXPRESSION': 146, 'VALUE': 73, '(': 74, 'CONSTANT': 81, 'OPERATION_SPECIAL': 82, '++': 83, '--': 84}
+
+I94:
+OPERATION -> ['OPERATION_CAL'],{'ID', '(', 'CONSTANT', '++', '--'}, index=1
+ {}
+
+I95:
+OPERATION -> ['OPERATION_CMP'],{'ID', '(', 'CONSTANT', '++', '--'}, index=1
+ {}
+
+I96:
+OPERATION -> ['OPERATION_EQ'],{'ID', '(', 'CONSTANT', '++', '--'}, index=1
+ {}
+
+I97:
+OPERATION -> ['OPERATION_LOG'],{'ID', '(', 'CONSTANT', '++', '--'}, index=1
+ {}
+
+I98:
+OPERATION_CAL -> [','],{'ID', '(', 'CONSTANT', '++', '--'}, index=1
+ {}
+
+I99:
+OPERATION_CAL -> ['+'],{'ID', '(', 'CONSTANT', '++', '--'}, index=1
+ {}
+
+I100:
+OPERATION_CAL -> ['-'],{'ID', '(', 'CONSTANT', '++', '--'}, index=1
+ {}
+
+I101:
+OPERATION_CAL -> ['*'],{'ID', '(', 'CONSTANT', '++', '--'}, index=1
+ {}
+
+I102:
+OPERATION_CAL -> ['/'],{'ID', '(', 'CONSTANT', '++', '--'}, index=1
+ {}
+
+I103:
+OPERATION_CAL -> ['%'],{'ID', '(', 'CONSTANT', '++', '--'}, index=1
+ {}
+
+I104:
+OPERATION_CAL -> ['|'],{'ID', '(', 'CONSTANT', '++', '--'}, index=1
+ {}
+
+I105:
+OPERATION_CAL -> ['&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=1
+ {}
+
+I106:
+OPERATION_CAL -> ['~'],{'ID', '(', 'CONSTANT', '++', '--'}, index=1
+ {}
+
+I107:
+OPERATION_CAL -> ['^'],{'ID', '(', 'CONSTANT', '++', '--'}, index=1
+ {}
+
+I108:
+OPERATION_CMP -> ['<'],{'ID', '(', 'CONSTANT', '++', '--'}, index=1
+ {}
+
+I109:
+OPERATION_CMP -> ['>'],{'ID', '(', 'CONSTANT', '++', '--'}, index=1
+ {}
+
+I110:
+OPERATION_CMP -> ['=='],{'ID', '(', 'CONSTANT', '++', '--'}, index=1
+ {}
+
+I111:
+OPERATION_CMP -> ['!='],{'ID', '(', 'CONSTANT', '++', '--'}, index=1
+ {}
+
+I112:
+OPERATION_CMP -> ['<='],{'ID', '(', 'CONSTANT', '++', '--'}, index=1
+ {}
+
+I113:
+OPERATION_CMP -> ['>='],{'ID', '(', 'CONSTANT', '++', '--'}, index=1
+ {}
+
+I114:
+OPERATION_EQ -> ['='],{'ID', '(', 'CONSTANT', '++', '--'}, index=1
+ {}
+
+I115:
+OPERATION_EQ -> ['+='],{'ID', '(', 'CONSTANT', '++', '--'}, index=1
+ {}
+
+I116:
+OPERATION_EQ -> ['-='],{'ID', '(', 'CONSTANT', '++', '--'}, index=1
+ {}
+
+I117:
+OPERATION_EQ -> ['*='],{'ID', '(', 'CONSTANT', '++', '--'}, index=1
+ {}
+
+I118:
+OPERATION_EQ -> ['/='],{'ID', '(', 'CONSTANT', '++', '--'}, index=1
+ {}
+
+I119:
+OPERATION_EQ -> ['%='],{'ID', '(', 'CONSTANT', '++', '--'}, index=1
+ {}
+
+I120:
+OPERATION_LOG -> ['!'],{'ID', '(', 'CONSTANT', '++', '--'}, index=1
+ {}
+
+I121:
+OPERATION_LOG -> ['&&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=1
+ {}
+
+I122:
+OPERATION_LOG -> ['||'],{'ID', '(', 'CONSTANT', '++', '--'}, index=1
+ {}
+
+I123:
+DECLARE_INTER -> ['TYPEDEF', 'ID', 'DECLARE_INIT', 'DECLARE_VARS', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=2
+DECLARE_INIT -> [],{',', ';'}, index=0
+DECLARE_INIT -> ['=', 'EXPRESSION'],{',', ';'}, index=0
+ {'DECLARE_INIT': 147, '=': 88}
+
+I124:
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{';'}, index=2
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=2
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{')'}, index=1
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+OPERATION -> ['OPERATION_CAL'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_CMP'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_EQ'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_LOG'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> [','],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['+'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['-'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['*'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['/'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['%'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['|'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['~'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['^'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['=='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['!='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['+='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['-='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['*='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['/='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['%='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['!'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['&&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['||'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+ {')': 148, 'OPERATION': 149, 'OPERATION_CAL': 94, 'OPERATION_CMP': 95, 'OPERATION_EQ': 96, 'OPERATION_LOG': 97, ',': 98, '+': 99, '-': 100, '*': 101, '/': 102, '%': 103, '|': 104, '&': 105, '~': 106, '^': 107, '<': 108, '>': 109, '==': 110, '!=': 111, '<=': 112, '>=': 113, '=': 114, '+=': 115, '-=': 116, '*=': 117, '/=': 118, '%=': 119, '!': 120, '&&': 121, '||': 122}
+
+I125:
+EXPRESSION -> ['VALUE'],{')'}, index=1
+EXPRESSION -> ['VALUE'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+ {}
+
+I126:
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{')'}, index=1
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+EXPRESSION -> ['VALUE'],{')'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{')'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{')'}, index=0
+VALUE -> ['CONSTANT'],{')'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{')'}, index=0
+EXPRESSION -> ['VALUE'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+OPERATION_SPECIAL -> [],{'ID'}, index=0
+OPERATION_SPECIAL -> ['++'],{'ID'}, index=0
+OPERATION_SPECIAL -> ['--'],{'ID'}, index=0
+VALUE -> ['CONSTANT'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+ {'EXPRESSION': 150, 'VALUE': 125, '(': 126, 'CONSTANT': 127, 'OPERATION_SPECIAL': 128, '++': 83, '--': 84}
+
+I127:
+VALUE -> ['CONSTANT'],{')'}, index=1
+VALUE -> ['CONSTANT'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+ {}
+
+I128:
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{')'}, index=1
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+ {'ID': 151}
+
+I129:
+IF_STMT -> ['if', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}', 'ELSE_IF_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=2
+EXPRESSION -> ['VALUE'],{')'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{')'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{')'}, index=0
+VALUE -> ['CONSTANT'],{')'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{')'}, index=0
+EXPRESSION -> ['VALUE'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+OPERATION_SPECIAL -> [],{'ID'}, index=0
+OPERATION_SPECIAL -> ['++'],{'ID'}, index=0
+OPERATION_SPECIAL -> ['--'],{'ID'}, index=0
+VALUE -> ['CONSTANT'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+ {'EXPRESSION': 152, 'VALUE': 125, '(': 126, 'CONSTANT': 127, 'OPERATION_SPECIAL': 128, '++': 83, '--': 84}
+
+I130:
+FOR_STMT -> ['for', '(', 'FOR_EXPRESSION', ';', 'EXPRESSION', ';', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=2
+FOR_EXPRESSION -> ['EXPRESSION'],{';'}, index=0
+FOR_EXPRESSION -> ['TYPEDEF', 'ID', 'DECLARE_INIT', 'DECLARE_VARS'],{';'}, index=0
+EXPRESSION -> ['VALUE'],{';'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{';'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{';'}, index=0
+TYPEDEF -> ['ID'],{'ID'}, index=0
+TYPEDEF -> ['CONST_TYPE'],{'ID'}, index=0
+VALUE -> ['CONSTANT'],{';'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{';'}, index=0
+EXPRESSION -> ['VALUE'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+CONST_TYPE -> ['void'],{'ID'}, index=0
+CONST_TYPE -> ['char'],{'ID'}, index=0
+CONST_TYPE -> ['bool'],{'ID'}, index=0
+CONST_TYPE -> ['short'],{'ID'}, index=0
+CONST_TYPE -> ['int'],{'ID'}, index=0
+CONST_TYPE -> ['long'],{'ID'}, index=0
+CONST_TYPE -> ['double'],{'ID'}, index=0
+CONST_TYPE -> ['float'],{'ID'}, index=0
+CONST_TYPE -> ['var'],{'ID'}, index=0
+OPERATION_SPECIAL -> [],{'ID'}, index=0
+OPERATION_SPECIAL -> ['++'],{'ID'}, index=0
+OPERATION_SPECIAL -> ['--'],{'ID'}, index=0
+VALUE -> ['CONSTANT'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+ {'FOR_EXPRESSION': 153, 'EXPRESSION': 154, 'TYPEDEF': 155, 'VALUE': 73, '(': 74, 'ID': 13, 'CONST_TYPE': 14, 'CONSTANT': 81, 'OPERATION_SPECIAL': 82, 'void': 15, 'char': 16, 'bool': 17, 'short': 18, 'int': 19, 'long': 20, 'double': 21, 'float': 22, 'var': 23, '++': 83, '--': 84}
+
+I131:
+WHILE_STMT -> ['while', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=2
+EXPRESSION -> ['VALUE'],{')'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{')'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{')'}, index=0
+VALUE -> ['CONSTANT'],{')'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{')'}, index=0
+EXPRESSION -> ['VALUE'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+OPERATION_SPECIAL -> [],{'ID'}, index=0
+OPERATION_SPECIAL -> ['++'],{'ID'}, index=0
+OPERATION_SPECIAL -> ['--'],{'ID'}, index=0
+VALUE -> ['CONSTANT'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+ {'EXPRESSION': 156, 'VALUE': 125, '(': 126, 'CONSTANT': 127, 'OPERATION_SPECIAL': 128, '++': 83, '--': 84}
+
+I132:
+DO_WHILE_STMT -> ['do', '{', 'BLOCK_STMT', '}', 'while', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=2
+BLOCK_STMT -> [],{'}'}, index=0
+BLOCK_STMT -> ['BLOCK_STMT_TMP', 'BLOCK_STMT'],{'}'}, index=0
+BLOCK_STMT_TMP -> ['DECLARE_INTER'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['EXPRESSION', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['IF_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['FOR_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['WHILE_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['DO_WHILE_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['PRINT_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['RETURN_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+DECLARE_INTER -> ['TYPEDEF', 'ID', 'DECLARE_INIT', 'DECLARE_VARS', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+EXPRESSION -> ['VALUE'],{';'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{';'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{';'}, index=0
+IF_STMT -> ['if', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}', 'ELSE_IF_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+FOR_STMT -> ['for', '(', 'FOR_EXPRESSION', ';', 'EXPRESSION', ';', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+WHILE_STMT -> ['while', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+DO_WHILE_STMT -> ['do', '{', 'BLOCK_STMT', '}', 'while', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+PRINT_STMT -> ['print', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+RETURN_STMT -> ['return', 'EXPRESSION', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+TYPEDEF -> ['ID'],{'ID'}, index=0
+TYPEDEF -> ['CONST_TYPE'],{'ID'}, index=0
+VALUE -> ['CONSTANT'],{';'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{';'}, index=0
+EXPRESSION -> ['VALUE'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+CONST_TYPE -> ['void'],{'ID'}, index=0
+CONST_TYPE -> ['char'],{'ID'}, index=0
+CONST_TYPE -> ['bool'],{'ID'}, index=0
+CONST_TYPE -> ['short'],{'ID'}, index=0
+CONST_TYPE -> ['int'],{'ID'}, index=0
+CONST_TYPE -> ['long'],{'ID'}, index=0
+CONST_TYPE -> ['double'],{'ID'}, index=0
+CONST_TYPE -> ['float'],{'ID'}, index=0
+CONST_TYPE -> ['var'],{'ID'}, index=0
+OPERATION_SPECIAL -> [],{'ID'}, index=0
+OPERATION_SPECIAL -> ['++'],{'ID'}, index=0
+OPERATION_SPECIAL -> ['--'],{'ID'}, index=0
+VALUE -> ['CONSTANT'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+ {'BLOCK_STMT': 157, 'BLOCK_STMT_TMP': 63, 'DECLARE_INTER': 64, 'EXPRESSION': 65, 'IF_STMT': 66, 'FOR_STMT': 67, 'WHILE_STMT': 68, 'DO_WHILE_STMT': 69, 'PRINT_STMT': 70, 'RETURN_STMT': 71, 'TYPEDEF': 72, 'VALUE': 73, '(': 74, 'if': 75, 'for': 76, 'while': 77, 'do': 78, 'print': 79, 'return': 80, 'ID': 13, 'CONST_TYPE': 14, 'CONSTANT': 81, 'OPERATION_SPECIAL': 82, 'void': 15, 'char': 16, 'bool': 17, 'short': 18, 'int': 19, 'long': 20, 'double': 21, 'float': 22, 'var': 23, '++': 83, '--': 84}
+
+I133:
+PRINT_STMT -> ['print', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=2
+EXPRESSION -> ['VALUE'],{')'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{')'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{')'}, index=0
+VALUE -> ['CONSTANT'],{')'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{')'}, index=0
+EXPRESSION -> ['VALUE'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+OPERATION_SPECIAL -> [],{'ID'}, index=0
+OPERATION_SPECIAL -> ['++'],{'ID'}, index=0
+OPERATION_SPECIAL -> ['--'],{'ID'}, index=0
+VALUE -> ['CONSTANT'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+ {'EXPRESSION': 158, 'VALUE': 125, '(': 126, 'CONSTANT': 127, 'OPERATION_SPECIAL': 128, '++': 83, '--': 84}
+
+I134:
+RETURN_STMT -> ['return', 'EXPRESSION', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=2
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{';'}, index=1
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+OPERATION -> ['OPERATION_CAL'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_CMP'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_EQ'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_LOG'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> [','],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['+'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['-'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['*'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['/'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['%'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['|'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['~'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['^'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['=='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['!='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['+='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['-='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['*='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['/='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['%='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['!'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['&&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['||'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+ {';': 159, 'OPERATION': 93, 'OPERATION_CAL': 94, 'OPERATION_CMP': 95, 'OPERATION_EQ': 96, 'OPERATION_LOG': 97, ',': 98, '+': 99, '-': 100, '*': 101, '/': 102, '%': 103, '|': 104, '&': 105, '~': 106, '^': 107, '<': 108, '>': 109, '==': 110, '!=': 111, '<=': 112, '>=': 113, '=': 114, '+=': 115, '-=': 116, '*=': 117, '/=': 118, '%=': 119, '!': 120, '&&': 121, '||': 122}
+
+I135:
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{';'}, index=2
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=2
+OPERATION_SPECIAL -> [],{';'}, index=0
+OPERATION_SPECIAL -> ['++'],{';'}, index=0
+OPERATION_SPECIAL -> ['--'],{';'}, index=0
+OPERATION_SPECIAL -> [],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+OPERATION_SPECIAL -> ['++'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+OPERATION_SPECIAL -> ['--'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+ {'OPERATION_SPECIAL': 160, '++': 161, '--': 162}
+
+I136:
+ARG -> [',', 'TYPEDEF', 'ID', 'ARG'],{')'}, index=3
+ARG -> [],{')'}, index=0
+ARG -> [',', 'TYPEDEF', 'ID', 'ARG'],{')'}, index=0
+ {'ARG': 163, ',': 59}
+
+I137:
+DECLARE_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'ID', 'DECLARE_INIT', 'DECLARE_VARS', ';'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=6
+ {';': 164}
+
+I138:
+DECLARE_VARS -> [',', 'ID', 'DECLARE_INIT', 'DECLARE_VARS'],{';'}, index=1
+ {'ID': 165}
+
+I139:
+METHOD_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'ID', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=6
+ {')': 166}
+
+I140:
+DECLARE_INIT -> ['=', 'EXPRESSION'],{',', ';'}, index=2
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{',', ';'}, index=1
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+OPERATION -> ['OPERATION_CAL'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_CMP'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_EQ'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_LOG'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> [','],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['+'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['-'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['*'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['/'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['%'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['|'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['~'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['^'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['=='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['!='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['+='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['-='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['*='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['/='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['%='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['!'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['&&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['||'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+ {'OPERATION': 167, 'OPERATION_CAL': 94, 'OPERATION_CMP': 95, 'OPERATION_EQ': 96, 'OPERATION_LOG': 97, ',': 98, '+': 99, '-': 100, '*': 101, '/': 102, '%': 103, '|': 104, '&': 105, '~': 106, '^': 107, '<': 108, '>': 109, '==': 110, '!=': 111, '<=': 112, '>=': 113, '=': 114, '+=': 115, '-=': 116, '*=': 117, '/=': 118, '%=': 119, '!': 120, '&&': 121, '||': 122}
+
+I141:
+EXPRESSION -> ['VALUE'],{',', ';'}, index=1
+EXPRESSION -> ['VALUE'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+ {}
+
+I142:
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{',', ';'}, index=1
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+EXPRESSION -> ['VALUE'],{')'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{')'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{')'}, index=0
+VALUE -> ['CONSTANT'],{')'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{')'}, index=0
+EXPRESSION -> ['VALUE'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+OPERATION_SPECIAL -> [],{'ID'}, index=0
+OPERATION_SPECIAL -> ['++'],{'ID'}, index=0
+OPERATION_SPECIAL -> ['--'],{'ID'}, index=0
+VALUE -> ['CONSTANT'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+ {'EXPRESSION': 168, 'VALUE': 125, '(': 126, 'CONSTANT': 127, 'OPERATION_SPECIAL': 128, '++': 83, '--': 84}
+
+I143:
+VALUE -> ['CONSTANT'],{',', ';'}, index=1
+VALUE -> ['CONSTANT'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+ {}
+
+I144:
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{',', ';'}, index=1
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+ {'ID': 169}
+
+I145:
+METHOD_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'main', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=6
+ {')': 170}
+
+I146:
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{';'}, index=3
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=3
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{';'}, index=1
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+OPERATION -> ['OPERATION_CAL'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_CMP'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_EQ'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_LOG'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> [','],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['+'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['-'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['*'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['/'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['%'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['|'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['~'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['^'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['=='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['!='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['+='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['-='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['*='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['/='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['%='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['!'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['&&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['||'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+ {'OPERATION': 93, 'OPERATION_CAL': 94, 'OPERATION_CMP': 95, 'OPERATION_EQ': 96, 'OPERATION_LOG': 97, ',': 98, '+': 99, '-': 100, '*': 101, '/': 102, '%': 103, '|': 104, '&': 105, '~': 106, '^': 107, '<': 108, '>': 109, '==': 110, '!=': 111, '<=': 112, '>=': 113, '=': 114, '+=': 115, '-=': 116, '*=': 117, '/=': 118, '%=': 119, '!': 120, '&&': 121, '||': 122}
+
+I147:
+DECLARE_INTER -> ['TYPEDEF', 'ID', 'DECLARE_INIT', 'DECLARE_VARS', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=3
+DECLARE_VARS -> [],{';'}, index=0
+DECLARE_VARS -> [',', 'ID', 'DECLARE_INIT', 'DECLARE_VARS'],{';'}, index=0
+ {'DECLARE_VARS': 171, ',': 138}
+
+I148:
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{';'}, index=3
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=3
+ {}
+
+I149:
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{')'}, index=2
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=2
+EXPRESSION -> ['VALUE'],{')'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{')'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{')'}, index=0
+EXPRESSION -> ['VALUE'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+VALUE -> ['CONSTANT'],{')'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{')'}, index=0
+VALUE -> ['CONSTANT'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+OPERATION_SPECIAL -> [],{'ID'}, index=0
+OPERATION_SPECIAL -> ['++'],{'ID'}, index=0
+OPERATION_SPECIAL -> ['--'],{'ID'}, index=0
+ {'EXPRESSION': 172, 'VALUE': 125, '(': 126, 'CONSTANT': 127, 'OPERATION_SPECIAL': 128, '++': 83, '--': 84}
+
+I150:
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{')'}, index=2
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=2
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{')'}, index=1
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+OPERATION -> ['OPERATION_CAL'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_CMP'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_EQ'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_LOG'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> [','],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['+'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['-'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['*'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['/'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['%'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['|'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['~'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['^'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['=='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['!='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['+='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['-='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['*='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['/='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['%='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['!'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['&&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['||'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+ {')': 173, 'OPERATION': 149, 'OPERATION_CAL': 94, 'OPERATION_CMP': 95, 'OPERATION_EQ': 96, 'OPERATION_LOG': 97, ',': 98, '+': 99, '-': 100, '*': 101, '/': 102, '%': 103, '|': 104, '&': 105, '~': 106, '^': 107, '<': 108, '>': 109, '==': 110, '!=': 111, '<=': 112, '>=': 113, '=': 114, '+=': 115, '-=': 116, '*=': 117, '/=': 118, '%=': 119, '!': 120, '&&': 121, '||': 122}
+
+I151:
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{')'}, index=2
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=2
+OPERATION_SPECIAL -> [],{')'}, index=0
+OPERATION_SPECIAL -> ['++'],{')'}, index=0
+OPERATION_SPECIAL -> ['--'],{')'}, index=0
+OPERATION_SPECIAL -> [],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+OPERATION_SPECIAL -> ['++'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+OPERATION_SPECIAL -> ['--'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+ {'OPERATION_SPECIAL': 174, '++': 175, '--': 176}
+
+I152:
+IF_STMT -> ['if', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}', 'ELSE_IF_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=3
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{')'}, index=1
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+OPERATION -> ['OPERATION_CAL'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_CMP'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_EQ'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_LOG'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> [','],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['+'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['-'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['*'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['/'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['%'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['|'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['~'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['^'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['=='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['!='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['+='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['-='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['*='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['/='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['%='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['!'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['&&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['||'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+ {')': 177, 'OPERATION': 149, 'OPERATION_CAL': 94, 'OPERATION_CMP': 95, 'OPERATION_EQ': 96, 'OPERATION_LOG': 97, ',': 98, '+': 99, '-': 100, '*': 101, '/': 102, '%': 103, '|': 104, '&': 105, '~': 106, '^': 107, '<': 108, '>': 109, '==': 110, '!=': 111, '<=': 112, '>=': 113, '=': 114, '+=': 115, '-=': 116, '*=': 117, '/=': 118, '%=': 119, '!': 120, '&&': 121, '||': 122}
+
+I153:
+FOR_STMT -> ['for', '(', 'FOR_EXPRESSION', ';', 'EXPRESSION', ';', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=3
+ {';': 178}
+
+I154:
+FOR_EXPRESSION -> ['EXPRESSION'],{';'}, index=1
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{';'}, index=1
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+OPERATION -> ['OPERATION_CAL'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_CMP'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_EQ'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_LOG'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> [','],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['+'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['-'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['*'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['/'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['%'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['|'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['~'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['^'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['=='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['!='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['+='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['-='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['*='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['/='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['%='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['!'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['&&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['||'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+ {'OPERATION': 93, 'OPERATION_CAL': 94, 'OPERATION_CMP': 95, 'OPERATION_EQ': 96, 'OPERATION_LOG': 97, ',': 98, '+': 99, '-': 100, '*': 101, '/': 102, '%': 103, '|': 104, '&': 105, '~': 106, '^': 107, '<': 108, '>': 109, '==': 110, '!=': 111, '<=': 112, '>=': 113, '=': 114, '+=': 115, '-=': 116, '*=': 117, '/=': 118, '%=': 119, '!': 120, '&&': 121, '||': 122}
+
+I155:
+FOR_EXPRESSION -> ['TYPEDEF', 'ID', 'DECLARE_INIT', 'DECLARE_VARS'],{';'}, index=1
+ {'ID': 179}
+
+I156:
+WHILE_STMT -> ['while', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=3
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{')'}, index=1
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+OPERATION -> ['OPERATION_CAL'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_CMP'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_EQ'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_LOG'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> [','],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['+'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['-'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['*'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['/'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['%'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['|'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['~'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['^'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['=='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['!='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['+='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['-='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['*='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['/='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['%='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['!'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['&&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['||'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+ {')': 180, 'OPERATION': 149, 'OPERATION_CAL': 94, 'OPERATION_CMP': 95, 'OPERATION_EQ': 96, 'OPERATION_LOG': 97, ',': 98, '+': 99, '-': 100, '*': 101, '/': 102, '%': 103, '|': 104, '&': 105, '~': 106, '^': 107, '<': 108, '>': 109, '==': 110, '!=': 111, '<=': 112, '>=': 113, '=': 114, '+=': 115, '-=': 116, '*=': 117, '/=': 118, '%=': 119, '!': 120, '&&': 121, '||': 122}
+
+I157:
+DO_WHILE_STMT -> ['do', '{', 'BLOCK_STMT', '}', 'while', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=3
+ {'}': 181}
+
+I158:
+PRINT_STMT -> ['print', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=3
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{')'}, index=1
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+OPERATION -> ['OPERATION_CAL'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_CMP'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_EQ'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_LOG'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> [','],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['+'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['-'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['*'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['/'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['%'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['|'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['~'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['^'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['=='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['!='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['+='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['-='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['*='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['/='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['%='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['!'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['&&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['||'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+ {')': 182, 'OPERATION': 149, 'OPERATION_CAL': 94, 'OPERATION_CMP': 95, 'OPERATION_EQ': 96, 'OPERATION_LOG': 97, ',': 98, '+': 99, '-': 100, '*': 101, '/': 102, '%': 103, '|': 104, '&': 105, '~': 106, '^': 107, '<': 108, '>': 109, '==': 110, '!=': 111, '<=': 112, '>=': 113, '=': 114, '+=': 115, '-=': 116, '*=': 117, '/=': 118, '%=': 119, '!': 120, '&&': 121, '||': 122}
+
+I159:
+RETURN_STMT -> ['return', 'EXPRESSION', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=3
+ {}
+
+I160:
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{';'}, index=3
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=3
+ {}
+
+I161:
+OPERATION_SPECIAL -> ['++'],{';'}, index=1
+OPERATION_SPECIAL -> ['++'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+ {}
+
+I162:
+OPERATION_SPECIAL -> ['--'],{';'}, index=1
+OPERATION_SPECIAL -> ['--'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+ {}
+
+I163:
+ARG -> [',', 'TYPEDEF', 'ID', 'ARG'],{')'}, index=4
+ {}
+
+I164:
+DECLARE_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'ID', 'DECLARE_INIT', 'DECLARE_VARS', ';'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=7
+ {}
+
+I165:
+DECLARE_VARS -> [',', 'ID', 'DECLARE_INIT', 'DECLARE_VARS'],{';'}, index=2
+DECLARE_INIT -> [],{',', ';'}, index=0
+DECLARE_INIT -> ['=', 'EXPRESSION'],{',', ';'}, index=0
+ {'DECLARE_INIT': 183, '=': 88}
+
+I166:
+METHOD_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'ID', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=7
+ {'{': 184}
+
+I167:
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{',', ';'}, index=2
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=2
+EXPRESSION -> ['VALUE'],{',', ';'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{',', ';'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{',', ';'}, index=0
+EXPRESSION -> ['VALUE'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+VALUE -> ['CONSTANT'],{',', ';'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{',', ';'}, index=0
+VALUE -> ['CONSTANT'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+OPERATION_SPECIAL -> [],{'ID'}, index=0
+OPERATION_SPECIAL -> ['++'],{'ID'}, index=0
+OPERATION_SPECIAL -> ['--'],{'ID'}, index=0
+ {'EXPRESSION': 185, 'VALUE': 141, '(': 142, 'CONSTANT': 143, 'OPERATION_SPECIAL': 144, '++': 83, '--': 84}
+
+I168:
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{',', ';'}, index=2
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=2
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{')'}, index=1
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+OPERATION -> ['OPERATION_CAL'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_CMP'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_EQ'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_LOG'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> [','],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['+'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['-'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['*'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['/'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['%'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['|'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['~'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['^'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['=='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['!='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['+='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['-='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['*='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['/='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['%='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['!'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['&&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['||'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+ {')': 186, 'OPERATION': 149, 'OPERATION_CAL': 94, 'OPERATION_CMP': 95, 'OPERATION_EQ': 96, 'OPERATION_LOG': 97, ',': 98, '+': 99, '-': 100, '*': 101, '/': 102, '%': 103, '|': 104, '&': 105, '~': 106, '^': 107, '<': 108, '>': 109, '==': 110, '!=': 111, '<=': 112, '>=': 113, '=': 114, '+=': 115, '-=': 116, '*=': 117, '/=': 118, '%=': 119, '!': 120, '&&': 121, '||': 122}
+
+I169:
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{',', ';'}, index=2
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=2
+OPERATION_SPECIAL -> [],{',', ';'}, index=0
+OPERATION_SPECIAL -> ['++'],{',', ';'}, index=0
+OPERATION_SPECIAL -> ['--'],{',', ';'}, index=0
+OPERATION_SPECIAL -> [],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+OPERATION_SPECIAL -> ['++'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+OPERATION_SPECIAL -> ['--'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+ {'OPERATION_SPECIAL': 187, '++': 188, '--': 189}
+
+I170:
+METHOD_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'main', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=7
+ {'{': 190}
+
+I171:
+DECLARE_INTER -> ['TYPEDEF', 'ID', 'DECLARE_INIT', 'DECLARE_VARS', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=4
+ {';': 191}
+
+I172:
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{')'}, index=3
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=3
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{')'}, index=1
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+OPERATION -> ['OPERATION_CAL'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_CMP'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_EQ'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_LOG'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> [','],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['+'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['-'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['*'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['/'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['%'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['|'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['~'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['^'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['=='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['!='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['+='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['-='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['*='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['/='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['%='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['!'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['&&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['||'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+ {'OPERATION': 149, 'OPERATION_CAL': 94, 'OPERATION_CMP': 95, 'OPERATION_EQ': 96, 'OPERATION_LOG': 97, ',': 98, '+': 99, '-': 100, '*': 101, '/': 102, '%': 103, '|': 104, '&': 105, '~': 106, '^': 107, '<': 108, '>': 109, '==': 110, '!=': 111, '<=': 112, '>=': 113, '=': 114, '+=': 115, '-=': 116, '*=': 117, '/=': 118, '%=': 119, '!': 120, '&&': 121, '||': 122}
+
+I173:
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{')'}, index=3
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=3
+ {}
+
+I174:
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{')'}, index=3
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=3
+ {}
+
+I175:
+OPERATION_SPECIAL -> ['++'],{')'}, index=1
+OPERATION_SPECIAL -> ['++'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+ {}
+
+I176:
+OPERATION_SPECIAL -> ['--'],{')'}, index=1
+OPERATION_SPECIAL -> ['--'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+ {}
+
+I177:
+IF_STMT -> ['if', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}', 'ELSE_IF_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=4
+ {'{': 192}
+
+I178:
+FOR_STMT -> ['for', '(', 'FOR_EXPRESSION', ';', 'EXPRESSION', ';', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=4
+EXPRESSION -> ['VALUE'],{';'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{';'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{';'}, index=0
+VALUE -> ['CONSTANT'],{';'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{';'}, index=0
+EXPRESSION -> ['VALUE'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+OPERATION_SPECIAL -> [],{'ID'}, index=0
+OPERATION_SPECIAL -> ['++'],{'ID'}, index=0
+OPERATION_SPECIAL -> ['--'],{'ID'}, index=0
+VALUE -> ['CONSTANT'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+ {'EXPRESSION': 193, 'VALUE': 73, '(': 74, 'CONSTANT': 81, 'OPERATION_SPECIAL': 82, '++': 83, '--': 84}
+
+I179:
+FOR_EXPRESSION -> ['TYPEDEF', 'ID', 'DECLARE_INIT', 'DECLARE_VARS'],{';'}, index=2
+DECLARE_INIT -> [],{',', ';'}, index=0
+DECLARE_INIT -> ['=', 'EXPRESSION'],{',', ';'}, index=0
+ {'DECLARE_INIT': 194, '=': 88}
+
+I180:
+WHILE_STMT -> ['while', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=4
+ {'{': 195}
+
+I181:
+DO_WHILE_STMT -> ['do', '{', 'BLOCK_STMT', '}', 'while', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=4
+ {'while': 196}
+
+I182:
+PRINT_STMT -> ['print', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=4
+ {';': 197}
+
+I183:
+DECLARE_VARS -> [',', 'ID', 'DECLARE_INIT', 'DECLARE_VARS'],{';'}, index=3
+DECLARE_VARS -> [],{';'}, index=0
+DECLARE_VARS -> [',', 'ID', 'DECLARE_INIT', 'DECLARE_VARS'],{';'}, index=0
+ {'DECLARE_VARS': 198, ',': 138}
+
+I184:
+METHOD_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'ID', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=8
+BLOCK_STMT -> [],{'}'}, index=0
+BLOCK_STMT -> ['BLOCK_STMT_TMP', 'BLOCK_STMT'],{'}'}, index=0
+BLOCK_STMT_TMP -> ['DECLARE_INTER'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['EXPRESSION', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['IF_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['FOR_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['WHILE_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['DO_WHILE_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['PRINT_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['RETURN_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+DECLARE_INTER -> ['TYPEDEF', 'ID', 'DECLARE_INIT', 'DECLARE_VARS', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+EXPRESSION -> ['VALUE'],{';'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{';'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{';'}, index=0
+IF_STMT -> ['if', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}', 'ELSE_IF_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+FOR_STMT -> ['for', '(', 'FOR_EXPRESSION', ';', 'EXPRESSION', ';', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+WHILE_STMT -> ['while', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+DO_WHILE_STMT -> ['do', '{', 'BLOCK_STMT', '}', 'while', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+PRINT_STMT -> ['print', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+RETURN_STMT -> ['return', 'EXPRESSION', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+TYPEDEF -> ['ID'],{'ID'}, index=0
+TYPEDEF -> ['CONST_TYPE'],{'ID'}, index=0
+VALUE -> ['CONSTANT'],{';'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{';'}, index=0
+EXPRESSION -> ['VALUE'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+CONST_TYPE -> ['void'],{'ID'}, index=0
+CONST_TYPE -> ['char'],{'ID'}, index=0
+CONST_TYPE -> ['bool'],{'ID'}, index=0
+CONST_TYPE -> ['short'],{'ID'}, index=0
+CONST_TYPE -> ['int'],{'ID'}, index=0
+CONST_TYPE -> ['long'],{'ID'}, index=0
+CONST_TYPE -> ['double'],{'ID'}, index=0
+CONST_TYPE -> ['float'],{'ID'}, index=0
+CONST_TYPE -> ['var'],{'ID'}, index=0
+OPERATION_SPECIAL -> [],{'ID'}, index=0
+OPERATION_SPECIAL -> ['++'],{'ID'}, index=0
+OPERATION_SPECIAL -> ['--'],{'ID'}, index=0
+VALUE -> ['CONSTANT'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+ {'BLOCK_STMT': 199, 'BLOCK_STMT_TMP': 63, 'DECLARE_INTER': 64, 'EXPRESSION': 65, 'IF_STMT': 66, 'FOR_STMT': 67, 'WHILE_STMT': 68, 'DO_WHILE_STMT': 69, 'PRINT_STMT': 70, 'RETURN_STMT': 71, 'TYPEDEF': 72, 'VALUE': 73, '(': 74, 'if': 75, 'for': 76, 'while': 77, 'do': 78, 'print': 79, 'return': 80, 'ID': 13, 'CONST_TYPE': 14, 'CONSTANT': 81, 'OPERATION_SPECIAL': 82, 'void': 15, 'char': 16, 'bool': 17, 'short': 18, 'int': 19, 'long': 20, 'double': 21, 'float': 22, 'var': 23, '++': 83, '--': 84}
+
+I185:
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{',', ';'}, index=3
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=3
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{',', ';'}, index=1
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+OPERATION -> ['OPERATION_CAL'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_CMP'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_EQ'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_LOG'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> [','],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['+'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['-'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['*'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['/'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['%'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['|'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['~'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['^'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['=='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['!='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['+='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['-='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['*='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['/='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['%='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['!'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['&&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['||'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+ {'OPERATION': 167, 'OPERATION_CAL': 94, 'OPERATION_CMP': 95, 'OPERATION_EQ': 96, 'OPERATION_LOG': 97, ',': 98, '+': 99, '-': 100, '*': 101, '/': 102, '%': 103, '|': 104, '&': 105, '~': 106, '^': 107, '<': 108, '>': 109, '==': 110, '!=': 111, '<=': 112, '>=': 113, '=': 114, '+=': 115, '-=': 116, '*=': 117, '/=': 118, '%=': 119, '!': 120, '&&': 121, '||': 122}
+
+I186:
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{',', ';'}, index=3
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=3
+ {}
+
+I187:
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{',', ';'}, index=3
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=3
+ {}
+
+I188:
+OPERATION_SPECIAL -> ['++'],{',', ';'}, index=1
+OPERATION_SPECIAL -> ['++'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+ {}
+
+I189:
+OPERATION_SPECIAL -> ['--'],{',', ';'}, index=1
+OPERATION_SPECIAL -> ['--'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+ {}
+
+I190:
+METHOD_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'main', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=8
+BLOCK_STMT -> [],{'}'}, index=0
+BLOCK_STMT -> ['BLOCK_STMT_TMP', 'BLOCK_STMT'],{'}'}, index=0
+BLOCK_STMT_TMP -> ['DECLARE_INTER'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['EXPRESSION', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['IF_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['FOR_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['WHILE_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['DO_WHILE_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['PRINT_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['RETURN_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+DECLARE_INTER -> ['TYPEDEF', 'ID', 'DECLARE_INIT', 'DECLARE_VARS', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+EXPRESSION -> ['VALUE'],{';'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{';'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{';'}, index=0
+IF_STMT -> ['if', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}', 'ELSE_IF_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+FOR_STMT -> ['for', '(', 'FOR_EXPRESSION', ';', 'EXPRESSION', ';', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+WHILE_STMT -> ['while', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+DO_WHILE_STMT -> ['do', '{', 'BLOCK_STMT', '}', 'while', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+PRINT_STMT -> ['print', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+RETURN_STMT -> ['return', 'EXPRESSION', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+TYPEDEF -> ['ID'],{'ID'}, index=0
+TYPEDEF -> ['CONST_TYPE'],{'ID'}, index=0
+VALUE -> ['CONSTANT'],{';'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{';'}, index=0
+EXPRESSION -> ['VALUE'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+CONST_TYPE -> ['void'],{'ID'}, index=0
+CONST_TYPE -> ['char'],{'ID'}, index=0
+CONST_TYPE -> ['bool'],{'ID'}, index=0
+CONST_TYPE -> ['short'],{'ID'}, index=0
+CONST_TYPE -> ['int'],{'ID'}, index=0
+CONST_TYPE -> ['long'],{'ID'}, index=0
+CONST_TYPE -> ['double'],{'ID'}, index=0
+CONST_TYPE -> ['float'],{'ID'}, index=0
+CONST_TYPE -> ['var'],{'ID'}, index=0
+OPERATION_SPECIAL -> [],{'ID'}, index=0
+OPERATION_SPECIAL -> ['++'],{'ID'}, index=0
+OPERATION_SPECIAL -> ['--'],{'ID'}, index=0
+VALUE -> ['CONSTANT'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+ {'BLOCK_STMT': 200, 'BLOCK_STMT_TMP': 63, 'DECLARE_INTER': 64, 'EXPRESSION': 65, 'IF_STMT': 66, 'FOR_STMT': 67, 'WHILE_STMT': 68, 'DO_WHILE_STMT': 69, 'PRINT_STMT': 70, 'RETURN_STMT': 71, 'TYPEDEF': 72, 'VALUE': 73, '(': 74, 'if': 75, 'for': 76, 'while': 77, 'do': 78, 'print': 79, 'return': 80, 'ID': 13, 'CONST_TYPE': 14, 'CONSTANT': 81, 'OPERATION_SPECIAL': 82, 'void': 15, 'char': 16, 'bool': 17, 'short': 18, 'int': 19, 'long': 20, 'double': 21, 'float': 22, 'var': 23, '++': 83, '--': 84}
+
+I191:
+DECLARE_INTER -> ['TYPEDEF', 'ID', 'DECLARE_INIT', 'DECLARE_VARS', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=5
+ {}
+
+I192:
+IF_STMT -> ['if', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}', 'ELSE_IF_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=5
+BLOCK_STMT -> [],{'}'}, index=0
+BLOCK_STMT -> ['BLOCK_STMT_TMP', 'BLOCK_STMT'],{'}'}, index=0
+BLOCK_STMT_TMP -> ['DECLARE_INTER'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['EXPRESSION', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['IF_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['FOR_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['WHILE_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['DO_WHILE_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['PRINT_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['RETURN_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+DECLARE_INTER -> ['TYPEDEF', 'ID', 'DECLARE_INIT', 'DECLARE_VARS', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+EXPRESSION -> ['VALUE'],{';'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{';'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{';'}, index=0
+IF_STMT -> ['if', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}', 'ELSE_IF_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+FOR_STMT -> ['for', '(', 'FOR_EXPRESSION', ';', 'EXPRESSION', ';', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+WHILE_STMT -> ['while', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+DO_WHILE_STMT -> ['do', '{', 'BLOCK_STMT', '}', 'while', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+PRINT_STMT -> ['print', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+RETURN_STMT -> ['return', 'EXPRESSION', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+TYPEDEF -> ['ID'],{'ID'}, index=0
+TYPEDEF -> ['CONST_TYPE'],{'ID'}, index=0
+VALUE -> ['CONSTANT'],{';'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{';'}, index=0
+EXPRESSION -> ['VALUE'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+CONST_TYPE -> ['void'],{'ID'}, index=0
+CONST_TYPE -> ['char'],{'ID'}, index=0
+CONST_TYPE -> ['bool'],{'ID'}, index=0
+CONST_TYPE -> ['short'],{'ID'}, index=0
+CONST_TYPE -> ['int'],{'ID'}, index=0
+CONST_TYPE -> ['long'],{'ID'}, index=0
+CONST_TYPE -> ['double'],{'ID'}, index=0
+CONST_TYPE -> ['float'],{'ID'}, index=0
+CONST_TYPE -> ['var'],{'ID'}, index=0
+OPERATION_SPECIAL -> [],{'ID'}, index=0
+OPERATION_SPECIAL -> ['++'],{'ID'}, index=0
+OPERATION_SPECIAL -> ['--'],{'ID'}, index=0
+VALUE -> ['CONSTANT'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+ {'BLOCK_STMT': 201, 'BLOCK_STMT_TMP': 63, 'DECLARE_INTER': 64, 'EXPRESSION': 65, 'IF_STMT': 66, 'FOR_STMT': 67, 'WHILE_STMT': 68, 'DO_WHILE_STMT': 69, 'PRINT_STMT': 70, 'RETURN_STMT': 71, 'TYPEDEF': 72, 'VALUE': 73, '(': 74, 'if': 75, 'for': 76, 'while': 77, 'do': 78, 'print': 79, 'return': 80, 'ID': 13, 'CONST_TYPE': 14, 'CONSTANT': 81, 'OPERATION_SPECIAL': 82, 'void': 15, 'char': 16, 'bool': 17, 'short': 18, 'int': 19, 'long': 20, 'double': 21, 'float': 22, 'var': 23, '++': 83, '--': 84}
+
+I193:
+FOR_STMT -> ['for', '(', 'FOR_EXPRESSION', ';', 'EXPRESSION', ';', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=5
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{';'}, index=1
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+OPERATION -> ['OPERATION_CAL'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_CMP'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_EQ'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_LOG'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> [','],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['+'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['-'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['*'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['/'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['%'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['|'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['~'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['^'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['=='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['!='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['+='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['-='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['*='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['/='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['%='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['!'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['&&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['||'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+ {';': 202, 'OPERATION': 93, 'OPERATION_CAL': 94, 'OPERATION_CMP': 95, 'OPERATION_EQ': 96, 'OPERATION_LOG': 97, ',': 98, '+': 99, '-': 100, '*': 101, '/': 102, '%': 103, '|': 104, '&': 105, '~': 106, '^': 107, '<': 108, '>': 109, '==': 110, '!=': 111, '<=': 112, '>=': 113, '=': 114, '+=': 115, '-=': 116, '*=': 117, '/=': 118, '%=': 119, '!': 120, '&&': 121, '||': 122}
+
+I194:
+FOR_EXPRESSION -> ['TYPEDEF', 'ID', 'DECLARE_INIT', 'DECLARE_VARS'],{';'}, index=3
+DECLARE_VARS -> [],{';'}, index=0
+DECLARE_VARS -> [',', 'ID', 'DECLARE_INIT', 'DECLARE_VARS'],{';'}, index=0
+ {'DECLARE_VARS': 203, ',': 138}
+
+I195:
+WHILE_STMT -> ['while', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=5
+BLOCK_STMT -> [],{'}'}, index=0
+BLOCK_STMT -> ['BLOCK_STMT_TMP', 'BLOCK_STMT'],{'}'}, index=0
+BLOCK_STMT_TMP -> ['DECLARE_INTER'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['EXPRESSION', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['IF_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['FOR_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['WHILE_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['DO_WHILE_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['PRINT_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['RETURN_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+DECLARE_INTER -> ['TYPEDEF', 'ID', 'DECLARE_INIT', 'DECLARE_VARS', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+EXPRESSION -> ['VALUE'],{';'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{';'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{';'}, index=0
+IF_STMT -> ['if', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}', 'ELSE_IF_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+FOR_STMT -> ['for', '(', 'FOR_EXPRESSION', ';', 'EXPRESSION', ';', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+WHILE_STMT -> ['while', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+DO_WHILE_STMT -> ['do', '{', 'BLOCK_STMT', '}', 'while', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+PRINT_STMT -> ['print', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+RETURN_STMT -> ['return', 'EXPRESSION', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+TYPEDEF -> ['ID'],{'ID'}, index=0
+TYPEDEF -> ['CONST_TYPE'],{'ID'}, index=0
+VALUE -> ['CONSTANT'],{';'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{';'}, index=0
+EXPRESSION -> ['VALUE'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+CONST_TYPE -> ['void'],{'ID'}, index=0
+CONST_TYPE -> ['char'],{'ID'}, index=0
+CONST_TYPE -> ['bool'],{'ID'}, index=0
+CONST_TYPE -> ['short'],{'ID'}, index=0
+CONST_TYPE -> ['int'],{'ID'}, index=0
+CONST_TYPE -> ['long'],{'ID'}, index=0
+CONST_TYPE -> ['double'],{'ID'}, index=0
+CONST_TYPE -> ['float'],{'ID'}, index=0
+CONST_TYPE -> ['var'],{'ID'}, index=0
+OPERATION_SPECIAL -> [],{'ID'}, index=0
+OPERATION_SPECIAL -> ['++'],{'ID'}, index=0
+OPERATION_SPECIAL -> ['--'],{'ID'}, index=0
+VALUE -> ['CONSTANT'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+ {'BLOCK_STMT': 204, 'BLOCK_STMT_TMP': 63, 'DECLARE_INTER': 64, 'EXPRESSION': 65, 'IF_STMT': 66, 'FOR_STMT': 67, 'WHILE_STMT': 68, 'DO_WHILE_STMT': 69, 'PRINT_STMT': 70, 'RETURN_STMT': 71, 'TYPEDEF': 72, 'VALUE': 73, '(': 74, 'if': 75, 'for': 76, 'while': 77, 'do': 78, 'print': 79, 'return': 80, 'ID': 13, 'CONST_TYPE': 14, 'CONSTANT': 81, 'OPERATION_SPECIAL': 82, 'void': 15, 'char': 16, 'bool': 17, 'short': 18, 'int': 19, 'long': 20, 'double': 21, 'float': 22, 'var': 23, '++': 83, '--': 84}
+
+I196:
+DO_WHILE_STMT -> ['do', '{', 'BLOCK_STMT', '}', 'while', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=5
+ {'(': 205}
+
+I197:
+PRINT_STMT -> ['print', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=5
+ {}
+
+I198:
+DECLARE_VARS -> [',', 'ID', 'DECLARE_INIT', 'DECLARE_VARS'],{';'}, index=4
+ {}
+
+I199:
+METHOD_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'ID', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=9
+ {'}': 206}
+
+I200:
+METHOD_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'main', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=9
+ {'}': 207}
+
+I201:
+IF_STMT -> ['if', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}', 'ELSE_IF_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=6
+ {'}': 208}
+
+I202:
+FOR_STMT -> ['for', '(', 'FOR_EXPRESSION', ';', 'EXPRESSION', ';', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=6
+EXPRESSION -> ['VALUE'],{')'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{')'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{')'}, index=0
+VALUE -> ['CONSTANT'],{')'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{')'}, index=0
+EXPRESSION -> ['VALUE'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+OPERATION_SPECIAL -> [],{'ID'}, index=0
+OPERATION_SPECIAL -> ['++'],{'ID'}, index=0
+OPERATION_SPECIAL -> ['--'],{'ID'}, index=0
+VALUE -> ['CONSTANT'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+ {'EXPRESSION': 209, 'VALUE': 125, '(': 126, 'CONSTANT': 127, 'OPERATION_SPECIAL': 128, '++': 83, '--': 84}
+
+I203:
+FOR_EXPRESSION -> ['TYPEDEF', 'ID', 'DECLARE_INIT', 'DECLARE_VARS'],{';'}, index=4
+ {}
+
+I204:
+WHILE_STMT -> ['while', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=6
+ {'}': 210}
+
+I205:
+DO_WHILE_STMT -> ['do', '{', 'BLOCK_STMT', '}', 'while', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=6
+EXPRESSION -> ['VALUE'],{')'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{')'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{')'}, index=0
+VALUE -> ['CONSTANT'],{')'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{')'}, index=0
+EXPRESSION -> ['VALUE'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+OPERATION_SPECIAL -> [],{'ID'}, index=0
+OPERATION_SPECIAL -> ['++'],{'ID'}, index=0
+OPERATION_SPECIAL -> ['--'],{'ID'}, index=0
+VALUE -> ['CONSTANT'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+ {'EXPRESSION': 211, 'VALUE': 125, '(': 126, 'CONSTANT': 127, 'OPERATION_SPECIAL': 128, '++': 83, '--': 84}
+
+I206:
+METHOD_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'ID', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=10
+ {}
+
+I207:
+METHOD_CLASS -> ['FIELD_TYPE', 'OPTIONAL_FIELD_TYPE', 'TYPEDEF', 'main', '(', 'ARGS', ')', '{', 'BLOCK_STMT', '}'],{'ID', 'short', 'int', '}', 'var', 'float', 'private', 'long', 'bool', 'protected', 'char', 'final', 'public', 'double', 'void', 'static'}, index=10
+ {}
+
+I208:
+IF_STMT -> ['if', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}', 'ELSE_IF_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=7
+ELSE_IF_STMT -> [],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+ELSE_IF_STMT -> ['else', 'IF_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+ELSE_IF_STMT -> ['else', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+ {'ELSE_IF_STMT': 212, 'else': 213}
+
+I209:
+FOR_STMT -> ['for', '(', 'FOR_EXPRESSION', ';', 'EXPRESSION', ';', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=7
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{')'}, index=1
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+OPERATION -> ['OPERATION_CAL'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_CMP'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_EQ'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_LOG'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> [','],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['+'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['-'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['*'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['/'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['%'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['|'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['~'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['^'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['=='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['!='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['+='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['-='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['*='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['/='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['%='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['!'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['&&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['||'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+ {')': 214, 'OPERATION': 149, 'OPERATION_CAL': 94, 'OPERATION_CMP': 95, 'OPERATION_EQ': 96, 'OPERATION_LOG': 97, ',': 98, '+': 99, '-': 100, '*': 101, '/': 102, '%': 103, '|': 104, '&': 105, '~': 106, '^': 107, '<': 108, '>': 109, '==': 110, '!=': 111, '<=': 112, '>=': 113, '=': 114, '+=': 115, '-=': 116, '*=': 117, '/=': 118, '%=': 119, '!': 120, '&&': 121, '||': 122}
+
+I210:
+WHILE_STMT -> ['while', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=7
+ {}
+
+I211:
+DO_WHILE_STMT -> ['do', '{', 'BLOCK_STMT', '}', 'while', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=7
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{')'}, index=1
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=1
+OPERATION -> ['OPERATION_CAL'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_CMP'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_EQ'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION -> ['OPERATION_LOG'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> [','],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['+'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['-'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['*'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['/'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['%'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['|'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['~'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CAL -> ['^'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['=='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['!='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['<='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_CMP -> ['>='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['+='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['-='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['*='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['/='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_EQ -> ['%='],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['!'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['&&'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+OPERATION_LOG -> ['||'],{'ID', '(', 'CONSTANT', '++', '--'}, index=0
+ {')': 215, 'OPERATION': 149, 'OPERATION_CAL': 94, 'OPERATION_CMP': 95, 'OPERATION_EQ': 96, 'OPERATION_LOG': 97, ',': 98, '+': 99, '-': 100, '*': 101, '/': 102, '%': 103, '|': 104, '&': 105, '~': 106, '^': 107, '<': 108, '>': 109, '==': 110, '!=': 111, '<=': 112, '>=': 113, '=': 114, '+=': 115, '-=': 116, '*=': 117, '/=': 118, '%=': 119, '!': 120, '&&': 121, '||': 122}
+
+I212:
+IF_STMT -> ['if', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}', 'ELSE_IF_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=8
+ {}
+
+I213:
+ELSE_IF_STMT -> ['else', 'IF_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=1
+ELSE_IF_STMT -> ['else', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=1
+IF_STMT -> ['if', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}', 'ELSE_IF_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+ {'IF_STMT': 216, '{': 217, 'if': 75}
+
+I214:
+FOR_STMT -> ['for', '(', 'FOR_EXPRESSION', ';', 'EXPRESSION', ';', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=8
+ {'{': 218}
+
+I215:
+DO_WHILE_STMT -> ['do', '{', 'BLOCK_STMT', '}', 'while', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=8
+ {';': 219}
+
+I216:
+ELSE_IF_STMT -> ['else', 'IF_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=2
+ {}
+
+I217:
+ELSE_IF_STMT -> ['else', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=2
+BLOCK_STMT -> [],{'}'}, index=0
+BLOCK_STMT -> ['BLOCK_STMT_TMP', 'BLOCK_STMT'],{'}'}, index=0
+BLOCK_STMT_TMP -> ['DECLARE_INTER'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['EXPRESSION', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['IF_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['FOR_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['WHILE_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['DO_WHILE_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['PRINT_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['RETURN_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+DECLARE_INTER -> ['TYPEDEF', 'ID', 'DECLARE_INIT', 'DECLARE_VARS', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+EXPRESSION -> ['VALUE'],{';'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{';'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{';'}, index=0
+IF_STMT -> ['if', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}', 'ELSE_IF_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+FOR_STMT -> ['for', '(', 'FOR_EXPRESSION', ';', 'EXPRESSION', ';', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+WHILE_STMT -> ['while', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+DO_WHILE_STMT -> ['do', '{', 'BLOCK_STMT', '}', 'while', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+PRINT_STMT -> ['print', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+RETURN_STMT -> ['return', 'EXPRESSION', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+TYPEDEF -> ['ID'],{'ID'}, index=0
+TYPEDEF -> ['CONST_TYPE'],{'ID'}, index=0
+VALUE -> ['CONSTANT'],{';'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{';'}, index=0
+EXPRESSION -> ['VALUE'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+CONST_TYPE -> ['void'],{'ID'}, index=0
+CONST_TYPE -> ['char'],{'ID'}, index=0
+CONST_TYPE -> ['bool'],{'ID'}, index=0
+CONST_TYPE -> ['short'],{'ID'}, index=0
+CONST_TYPE -> ['int'],{'ID'}, index=0
+CONST_TYPE -> ['long'],{'ID'}, index=0
+CONST_TYPE -> ['double'],{'ID'}, index=0
+CONST_TYPE -> ['float'],{'ID'}, index=0
+CONST_TYPE -> ['var'],{'ID'}, index=0
+OPERATION_SPECIAL -> [],{'ID'}, index=0
+OPERATION_SPECIAL -> ['++'],{'ID'}, index=0
+OPERATION_SPECIAL -> ['--'],{'ID'}, index=0
+VALUE -> ['CONSTANT'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+ {'BLOCK_STMT': 220, 'BLOCK_STMT_TMP': 63, 'DECLARE_INTER': 64, 'EXPRESSION': 65, 'IF_STMT': 66, 'FOR_STMT': 67, 'WHILE_STMT': 68, 'DO_WHILE_STMT': 69, 'PRINT_STMT': 70, 'RETURN_STMT': 71, 'TYPEDEF': 72, 'VALUE': 73, '(': 74, 'if': 75, 'for': 76, 'while': 77, 'do': 78, 'print': 79, 'return': 80, 'ID': 13, 'CONST_TYPE': 14, 'CONSTANT': 81, 'OPERATION_SPECIAL': 82, 'void': 15, 'char': 16, 'bool': 17, 'short': 18, 'int': 19, 'long': 20, 'double': 21, 'float': 22, 'var': 23, '++': 83, '--': 84}
+
+I218:
+FOR_STMT -> ['for', '(', 'FOR_EXPRESSION', ';', 'EXPRESSION', ';', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=9
+BLOCK_STMT -> [],{'}'}, index=0
+BLOCK_STMT -> ['BLOCK_STMT_TMP', 'BLOCK_STMT'],{'}'}, index=0
+BLOCK_STMT_TMP -> ['DECLARE_INTER'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['EXPRESSION', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['IF_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['FOR_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['WHILE_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['DO_WHILE_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['PRINT_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+BLOCK_STMT_TMP -> ['RETURN_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+DECLARE_INTER -> ['TYPEDEF', 'ID', 'DECLARE_INIT', 'DECLARE_VARS', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+EXPRESSION -> ['VALUE'],{';'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{';'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{';'}, index=0
+IF_STMT -> ['if', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}', 'ELSE_IF_STMT'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+FOR_STMT -> ['for', '(', 'FOR_EXPRESSION', ';', 'EXPRESSION', ';', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+WHILE_STMT -> ['while', '(', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+DO_WHILE_STMT -> ['do', '{', 'BLOCK_STMT', '}', 'while', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+PRINT_STMT -> ['print', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+RETURN_STMT -> ['return', 'EXPRESSION', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=0
+TYPEDEF -> ['ID'],{'ID'}, index=0
+TYPEDEF -> ['CONST_TYPE'],{'ID'}, index=0
+VALUE -> ['CONSTANT'],{';'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{';'}, index=0
+EXPRESSION -> ['VALUE'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['(', 'EXPRESSION', ')'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+EXPRESSION -> ['EXPRESSION', 'OPERATION', 'EXPRESSION'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+CONST_TYPE -> ['void'],{'ID'}, index=0
+CONST_TYPE -> ['char'],{'ID'}, index=0
+CONST_TYPE -> ['bool'],{'ID'}, index=0
+CONST_TYPE -> ['short'],{'ID'}, index=0
+CONST_TYPE -> ['int'],{'ID'}, index=0
+CONST_TYPE -> ['long'],{'ID'}, index=0
+CONST_TYPE -> ['double'],{'ID'}, index=0
+CONST_TYPE -> ['float'],{'ID'}, index=0
+CONST_TYPE -> ['var'],{'ID'}, index=0
+OPERATION_SPECIAL -> [],{'ID'}, index=0
+OPERATION_SPECIAL -> ['++'],{'ID'}, index=0
+OPERATION_SPECIAL -> ['--'],{'ID'}, index=0
+VALUE -> ['CONSTANT'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+VALUE -> ['OPERATION_SPECIAL', 'ID', 'OPERATION_SPECIAL'],{'*', '-', '%', '-=', '&&', '=', '|', '/', '==', '>', '%=', '<', '*=', '!=', '<=', '+', '&', '^', '>=', '/=', ',', '~', '+=', '||', '!'}, index=0
+ {'BLOCK_STMT': 221, 'BLOCK_STMT_TMP': 63, 'DECLARE_INTER': 64, 'EXPRESSION': 65, 'IF_STMT': 66, 'FOR_STMT': 67, 'WHILE_STMT': 68, 'DO_WHILE_STMT': 69, 'PRINT_STMT': 70, 'RETURN_STMT': 71, 'TYPEDEF': 72, 'VALUE': 73, '(': 74, 'if': 75, 'for': 76, 'while': 77, 'do': 78, 'print': 79, 'return': 80, 'ID': 13, 'CONST_TYPE': 14, 'CONSTANT': 81, 'OPERATION_SPECIAL': 82, 'void': 15, 'char': 16, 'bool': 17, 'short': 18, 'int': 19, 'long': 20, 'double': 21, 'float': 22, 'var': 23, '++': 83, '--': 84}
+
+I219:
+DO_WHILE_STMT -> ['do', '{', 'BLOCK_STMT', '}', 'while', '(', 'EXPRESSION', ')', ';'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=9
+ {}
+
+I220:
+ELSE_IF_STMT -> ['else', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=3
+ {'}': 222}
+
+I221:
+FOR_STMT -> ['for', '(', 'FOR_EXPRESSION', ';', 'EXPRESSION', ';', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=10
+ {'}': 223}
+
+I222:
+ELSE_IF_STMT -> ['else', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=4
+ {}
+
+I223:
+FOR_STMT -> ['for', '(', 'FOR_EXPRESSION', ';', 'EXPRESSION', ';', 'EXPRESSION', ')', '{', 'BLOCK_STMT', '}'],{'}', 'if', 'var', 'char', 'do', 'while', '(', 'short', '++', '--', 'ID', 'for', 'int', 'float', 'long', 'print', 'bool', 'CONSTANT', 'double', 'void', 'return'}, index=11
+ {}
+
+项目集族个数为： 223
